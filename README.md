@@ -1,8 +1,12 @@
-<h1 align="center">Code Institute Website</h1>
+# ![The Anvil logo](https://github.com/SteveKennyUK/the-anvil-metal-pub/blob/master/assets/images/logo.png) The Anvil Rock and Metal Pub
+
+
+This website has been created for my User Centric Frontend Development Milestone 1 project, the first project on the [Code Institute Diploma in Software Development](https://codeinstitute.net/) course.
+The aim of the project is to showcase my understanding of the initial modules of the course by building a static front-end website to present useful information to users, using HTML and CSS programming languages alongside optional frameworks such as Bootstrap.
+
+This project is concerned with building a website for a fictitious pub called "The Anvil". This pub has a heavy metal and rock music theme, including hosting live band performances. The aim of the website is to promote the pub on behalf of the owners and to provide useful information to potential and existing customers.
 
 [View the live project here.](https://codeinstitute.net)
-
-This is the main marketing website for Code Institute. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential students and partners.
 
 <h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
 
