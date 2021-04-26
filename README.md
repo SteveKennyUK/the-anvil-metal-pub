@@ -1,10 +1,10 @@
-# ![The Anvil logo](https://github.com/SteveKennyUK/the-anvil-metal-pub/blob/master/assets/images/logo.png) The Anvil Rock and Metal Pub
+# 'The Anvil' Rock and Metal Pub
 
 
 This website has been created for my User Centric Frontend Development Milestone 1 project, the first project on the [Code Institute Diploma in Software Development](https://codeinstitute.net/) course.
 The aim of the project is to showcase my understanding of the initial modules of the course by building a static front-end website to present useful information to users, using HTML and CSS programming languages alongside optional frameworks such as Bootstrap.
 
-This project is concerned with building a website for a fictitious pub called "The Anvil". This pub has a heavy metal and rock music theme, including hosting live band performances. The aim of the website is to promote the pub on behalf of the owners and to provide useful information to potential and existing customers.
+This project is concerned with building a website for a fictitious pub called "The Anvil". This pub has a heavy metal and rock music theme, including hosting live band performances. The aim of the website is to firstly promote the pub on behalf of the owners by providing a user-friendly and informative website. Secondly, the website needs to provide valuable and easily digestible information to potential and existing customers.
 
 [View the live project here.](https://codeinstitute.net)
 
@@ -12,25 +12,50 @@ This project is concerned with building a website for a fictitious pub called "T
 
 ## User Experience (UX)
 
--   ### User stories
+This website will follow the principles of User Centred Design (UCD), which will focus on placing users at the centre of the design and development process.
 
-    -   #### First Time Visitor Goals
+This site has two pricipal user goals to consider.
 
-        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
-        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-        3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+1. **Site Business Owners** - in this case, the pub owners. The greatest value to the business will be achieved by aiming the site towards a consumer market. This will influence the approach taken, with a greater focus on emotive design with catchy and compelling content. Inspirational research has been undertaken by comparing websites of similar existing businesses and assessing what they are doing well but also what could be improved. See [Credits](#credits).
 
-    -   #### Returning Visitor Goals
+2. **Customer Users** - the main focus of the site will be on the potential and existing customer user base of the pub. As a licenced premise and the appeal of the music genre being widespread, the only real target user demographic would be over 18 year olds. However, it is expected that most users would rely on mobile devices to view the website. I am drawing on the experience of myself and friends as users of similar sites to create the user goals for this site.   
 
-        1. As a Returning Visitor, I want to find information about coding challenges.
-        2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-        3. As a Returning Visitor, I want to find community links.
 
-    -   #### Frequent User Goals
-        1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
-        2. As a Frequent User, I want to check to see if there are any new blog posts.
-        3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
 
+### Project Strategy
+---
+* **Business Goals** 
+
+    * As the business owner, I want features and content that will engage new users quickly, encourage them to explore the site and draw them back in the future.
+    * As the business owner, I want to advertise the great aspects of our business which make us special.
+    * As the business owner, I want to project a positive image and for users to feel that they can trust us.
+    * As the business owner, I want to make a connection with users and enable us to contact and be contacted by them.
+    * As the business owner, I would like to be able to get customer user feedback to help identify where we are going right and where there is room for improvement.
+    * As the business owner, I want to provide users with useful information without overloading them.
+    * As the business owner, I want the site to be accessible to all users.
+    
+
+* **User Goals** (general)
+
+    * As a user, I want to be immediately drawn into the site and understand its main purpose.
+    * As a user, I want to be able to easily identify what I need and navigate the site to get to it.
+    * As a user, I want concise but informative content, displayed in an aesthetic manner.
+    * As a user, I want to be able to view the site clearly and intuitively on different device sizes.
+    * As a user, I expect the site to be fully accessible.
+    
+* **User Stories** (customer users)
+
+    * As a new visitor, I want to be quickly reassured that this site will be of interest to me.
+    * As a new visitor, I want to be able to identify the content of the site and be able to easily navigate to areas of interest, such as the facilities and drink selection offered.
+    * As a new visitor, I would like to know the experiences of previous customers to help evaluate whether it would be an experience that I would enjoy. 
+    * As a new visitor, I would like easily located social media links so I can see the pub's following, visitor comments and any uploaded media. 
+    * As a new or returning visitor, I would like to know opening times and contact information so that I can locate the pub and contact the owners if I require any further information. Many people prefer an easy to fill contact form rather than contacting by phone. 
+    * As a returning visitor, I would like to view the range and prices of food and drink on offer plus information on upcoming live music.
+    * As a frequent visitor, I would like to be kept informed of any new content, such as promotions or new live band dates. New content should be easily identified on the site plus I would like to sign up to be notified personally.
+    * As a frequent visitor, I would like to be able to share my experiences and connect with other users on the site.
+    * As a frequent visitor, I would like there to be the option of accompanying music and videos, in line with the pub theme, to add to my user experience.
+
+ 
 -   ### Design
     -   #### Colour Scheme
         -   The two main colours used are Code Insititue red, and white.
