@@ -24,7 +24,7 @@ This site has two principal user goals to consider.
 
 ### Project Strategy
 ---
-* **Business Goals** 
+-   #### Business Goals
 
     * As the business owner, I want features and content that will engage new users quickly, encourage them to explore the site and draw them back in the future.
     * As the business owner, I want to advertise the great aspects of our business which make us special.
@@ -35,7 +35,7 @@ This site has two principal user goals to consider.
     * As the business owner, I want the site to be accessible to all users.
     
 
-* **User Goals** (general)
+-   #### User Goals (general)
 
     * As a user, I want to be immediately drawn into the site and understand its main purpose.
     * As a user, I want to be able to easily identify what I need and navigate the site to get to it.
@@ -43,7 +43,7 @@ This site has two principal user goals to consider.
     * As a user, I want to be able to view the site clearly and intuitively on different device sizes.
     * As a user, I expect the site to be fully accessible.
     
-* **User Stories** (customer users)
+-   #### User Stories (customer users)
 
     * As a new visitor, I want to be quickly reassured that this site will be of interest to me.
     * As a new visitor, I want to be able to identify the content of the site and be able to easily navigate to areas of interest, such as the facilities and drink selection offered.
@@ -65,7 +65,7 @@ The first development stage aims to create a Minimal Viable Product, providing u
 
 The features to include in this first development stage will be determined by creating a strategy trade-off table, drawing on the user goals and needs.
 
-**Strategy Trade-offs**
+#### Strategy Trade-offs
 
 Opportunity | Importance | Viability
 ----------- | ---------- | ---------
@@ -86,13 +86,24 @@ Shop page to sell merchandise | 2 | 1
 
 The higher feasilbility elements will be incorporated in this first stage of development. 
 
-As seen on the site logo, the motto is "Forging Great Beer and Music". It is therefore important to address these two elements in the first stage of the site i.e. showcasing the beer and the music which is on offer.
+#### Content Scope
+As seen on the site logo, the motto is "Forging Great Beer and Music". It is therefore important to dedicate resouces towards highlighting these two elements in the first stage of the site i.e. showcasing the beer and the music which is on offer, as this will be expected by users.
 
+It is felt that most users of the site will be visiting to look for particular information. The site is for a public house in a fixed location which caters in the most part for fans of a specific music genre. Visitors to the site, be they first time, returning or frequent, will therefore most likely have an idea of the general purpose of the site before visiting. 
+
+It is for the above reasons that the site should not be overloaded with peripheral content, such as long background stories. The content structure will instead focus purely on useful and concise content for the user without obscuring it with extraneous material. 
 
 
 ### Project Structure
 ---
-It is felt that most users of the site will be visiting to look for particular information. The site is for a public house in a fixed location which caters in the most part for fans of a specific music genre. Visitors to the site, be they first time, returning or frequent, will therefore most likely have an idea of the general purpose of the site before visiting. It is for these reasons that the site should not be overloaded with peripheral content, such as long background stories. The content structure will instead focus purely on useful content for the user without obscuring it with extraneous material. 
+
+The structural design of the site aims to make the user interaction with the site as easy and as comfortable as possible. This is achieved by creating meaningful relationships between the various site elements so that users can intuitively understand their meaning and purpose.
+
+The principles of Interactive Design (IxD) promote consistency, predictability, visibility, learnability and feedback as central to the above aim. The structure of this site aims to follow these principles.
+
+-   #### Page Structure
+    - 
+    - 
 
  
 -   ### Design
