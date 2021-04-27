@@ -11,10 +11,10 @@ This project is concerned with building a website for a fictitious pub called "T
 <h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
 
 ## User Experience (UX)
-
+---
 This website will follow the principles of User Centred Design (UCD), which will focus on placing users at the centre of the design and development process.
 
-This site has two pricipal user goals to consider.
+This site has two principal user goals to consider.
 
 1. **Site Business Owners** - in this case, the pub owners. The greatest value to the business will be achieved by aiming the site towards a consumer market. This will influence the approach taken, with a greater focus on emotive design with catchy and compelling content. Inspirational research has been undertaken by comparing websites of similar existing businesses and assessing what they are doing well but also what could be improved. See [Credits](#credits).
 
@@ -54,6 +54,45 @@ This site has two pricipal user goals to consider.
     * As a frequent visitor, I would like to be kept informed of any new content, such as promotions or new live band dates. New content should be easily identified on the site plus I would like to sign up to be notified personally.
     * As a frequent visitor, I would like to be able to share my experiences and connect with other users on the site.
     * As a frequent visitor, I would like there to be the option of accompanying music and videos, in line with the pub theme, to add to my user experience.
+
+### Project Scope
+---
+Looking at the User and Business Goals, there are plenty of features and content which could be included in the site to attempt to satisfy all their needs. However, a number of factors limit what would be possible or desirable to include in the first development stage.
+
+The main constraints are time and the current technological expertise of the developer. The decisions made at this stage are designed to avoid making the scope too large, such that the project becomes overloaded and fails to meet deadlines or making it too small, such that there is an unimpressive end result.  
+
+The first development stage aims to create a Minimal Viable Product, providing users with the core requirements that they actually need. Additional features can be added at future developmental stages, once feedback has been received from the initial site features. 
+
+The features to include in this first development stage will be determined by creating a strategy trade-off table, drawing on the user goals and needs.
+
+**Strategy Trade-offs**
+
+Opportunity | Importance | Viability
+----------- | ---------- | ---------
+Clear and intuitive navigational links | 5 | 5
+Social media links | 5 | 5
+Live music and event page | 5 | 5
+Food and drink page | 4 | 5
+Display opening times, facilities and contact details| 5 | 5
+Contact form for users | 4 | 5
+Feedback form for users and owners | 4 | 5
+User reviews | 4 | 5
+Responsive for all device sizes | 5 | 5
+Showcase deals and promotions | 4 | 4
+Create an online blog | 3 | 1
+Gallery to showcase pub nights | 3 | 3
+Jukebox set up for users to play music videos | 2 | 1
+Shop page to sell merchandise | 2 | 1
+
+The higher feasilbility elements will be incorporated in this first stage of development. 
+
+As seen on the site logo, the motto is "Forging Great Beer and Music". It is therefore important to address these two elements in the first stage of the site i.e. showcasing the beer and the music which is on offer.
+
+
+
+### Project Structure
+---
+It is felt that most users of the site will be visiting to look for particular information. The site is for a public house in a fixed location which caters in the most part for fans of a specific music genre. Visitors to the site, be they first time, returning or frequent, will therefore most likely have an idea of the general purpose of the site before visiting. It is for these reasons that the site should not be overloaded with peripheral content, such as long background stories. The content structure will instead focus purely on useful content for the user without obscuring it with extraneous material. 
 
  
 -   ### Design
