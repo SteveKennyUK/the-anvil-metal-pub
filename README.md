@@ -87,7 +87,7 @@ Shop page to sell merchandise | 2 | 1
 The higher feasilbility elements will be incorporated in this first stage of development. 
 
 #### Content Scope
-As seen on the site logo, the motto is "Forging Great Beer and Music". It is therefore important to dedicate resouces towards highlighting these two elements in the first stage of the site i.e. showcasing the beer and the music which is on offer, as this will be expected by users.
+As seen on the site logo, the motto is "Forging Great Beer and Music". It is therefore important to dedicate resources towards highlighting these two elements in the first stage of the site i.e. showcasing the beer and the music which is on offer, as this will be expected by users.
 
 It is felt that most users of the site will be visiting to look for particular information. The site is for a public house in a fixed location which caters in the most part for fans of a specific music genre. Visitors to the site, be they first time, returning or frequent, will therefore most likely have an idea of the general purpose of the site before visiting. 
 
@@ -102,10 +102,36 @@ The structural design of the site aims to make the user interaction with the sit
 The principles of Interactive Design (IxD) promote consistency, predictability, visibility, learnability and feedback as central to the above aim. The structure of this site aims to follow these principles.
 
 -   #### Page Structure
-    - 
-    - 
+    - Drawing on personal experience and further research of websites for similar organisations, it is felt that a multiple page site would suit best. This is consistent with a user's previous experiences and the predictability will make them more comfortable with the site.
+    - The 'Home' page will immediately address some of the user goals, with clear directions to desired content through navigation links, calls to action and meaningful images. These are again consistent with previous user experiences.
+    - Some user goals can be addressed in small sections on the 'Home' page, such as venue facilities. Links to these sections will be grouped under an 'About' navigation link, with the individual sections appearing as dropdown links.
+    - The beer and the music are the main selling points for the site. These therefore warrant their own pages. These particular sections of similar websites are usually big enough and important enough to warrant their own page so again this is consistent and predictable. 
+    - A separate 'Contact' page is also expected. This allows for a contact form which also provides feedback and sign up opportunities to be included alongside direct contact details, location information (including a map) and opening hours. Including these on the 'Home' page or as a pop-up modal could lead to information overload so a separate page is preferred.
+    - Each page will have the same header and footer. This consistency is visually pleasing to the user and they also quickly learn how these elements act on each page, leading to a better user experience.
+    - Time permitting, it is the intention to create a separate 404 error page in the event of a broken link or server error. This feedback adds reassurance to the user and provides them with clear instructions on how to return to the site.
 
+-   #### Visibility
+    - The location and purpose of elements should be clear to users. Ideally, a scroll down button to show users that there is content further down the page would be used. However, this involves the use of JavaScript, which is currently beyond the scope of the developer. Instead, there will be partial overlay of elements on the screens to hint to the user that there is more content below.
+    - Dropdown menus will have an arrow to indicate that there are further options available. This is a common practice to make elements more visible so should be predictable to the user. If not, the consistent use of this practice will help the user to learn what such arrows mean and be comfortable navigating the pages.
+
+-   #### Navigation
+    - The site navigation will again be consistent and predictable by following the convention of the site logo on the top left with a horizontal navigation bar to the right of the logo. There will also be a 'Sign Up' button on the top right hand side. As there is not a large number of pages to navigate through, this is the most appropriate method. Only the 'About' link requires a dropdown so the user will only need two clicks at most to reach their destination. Should the site evolve in the future, a more appropriate navigation system could be considered. 
+    - It is felt that a sticky navigation bar will provide the best user experience. As all navigation links are available on the navigation bar, this will enable the user to move around without having to scroll up each time.
+    - The navigation bar will be responsive and will use a hamburger menu for smaller devices. This is consistent and predictable with most sites on mobile devices. The menu will then cover the page when activated to maximise visibility of the options.
+
+-   #### Buttons and Links
+    - Buttons and links will be used to create a smoother navigation process for the user. The purpose of these must be made clear to the user. Buttons and links will react when the mouse hovers over them. This conventionally suggests that clicking on the button or link will make something happen. The use of unambiguous text or iconography will make it clear to the user what will happen when the button or link is clicked.
+    - Styling the buttons and links in a consistent manner and employing the same reaction when e.g. the mouse hovers will help the user to learn and predict what they need to do to achieve their goals.
+    - When a button is clicked, the user will be provided with some feedback to reassure them that their action has been acknowledged. This will be either a change in the button appearance or a confirmation message. This builds trust with the user.
+
+-   #### Iconography
+    - Icons will be used to help users to quickly identify content matter. A visual representation can say more than words and often stands out more. A quick scan of the page will pick out icons and well chosen ones will stand out and immediately assure the user as to the associated content.
+    - The site logo acts in a similar fashion and the user quickly learns to associate the image with the site and its purpose. A favicon, using a version of the logo, will be also be added. This is now generally expected by users and helps them to identify the site if they have several pages open.     
  
+
+
+
+
 -   ### Design
     -   #### Colour Scheme
         -   The two main colours used are Code Insititue red, and white.
