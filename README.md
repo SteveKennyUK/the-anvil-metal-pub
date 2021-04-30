@@ -129,14 +129,37 @@ The principles of Interactive Design (IxD) promote consistency, predictability, 
     - The site logo acts in a similar fashion and the user quickly learns to associate the image with the site and its purpose. A favicon, using a version of the logo, will be also be added. This is now generally expected by users and helps them to identify the site if they have several pages open.     
  
 
+### Project Design
+---
+The layout and content of the site has been designed with the User Experience at the forefront. The typical user will be someone interested in rock/heavy metal music and socialising. The site therefore needs to engage with this type of user and try to draw them in. The design needs to be energetic, a little unconventional and fun.
 
+- #### General Layout
+    - The design will broadly follow the 'rule of thirds' to provide a visually comforting experience to the user. Where appropriate, sections will be divided into thirds or one-third to two-thirds ratios.
+    - Sizings of elements will be balanced and proportional to again improve the visual comfort of the site. Where appropriate, widths and heights will be sized in multiples of 150px. 
+    - Layouts will be responsive to different screen sizes, particularly as many users will be expected to view the site on mobile devices. Consequently, the layout will change according to media size e.g. three horizontal columns on a desktop may become three vertical columns on a mobile phone.
 
+-   #### Colour Scheme
+    - The colour scheme for this site is very important in making the user feel immediately comfortable. Heavy metal music is synonymous with dark colours, with album covers and clothing most often a black background with lighter text. Users will expect such colours and this will be consistent with previous user experiences.
+    - The headers and footers will be white copy on a black background. Deep purple will also be used, chosen for its visuals and for it also being the name of a pioneering heavy metal band. These will be complemented by lighter grey, yellow and orange tones for text and buttons.
+    - The main colours will be
 
--   ### Design
-    -   #### Colour Scheme
-        -   The two main colours used are Code Insititue red, and white.
-    -   #### Typography
-        -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+      #000 - Black
+
+      [#36013f](https://icolorpalette.com/color/deep-purple) - Deep Purple
+
+      [#e2b659](https://icolorpalette.com/color/e2b659) - Light Orange Shade
+
+      [#f9f871](https://icolorpalette.com/color/f9f871) - Yellow Shade
+
+      [f5f5f5](https://icolorpalette.com/color/f5f5f5) - Light Grey Shade
+
+      #fff - White
+
+    - The chosen colours have been checked with [WebAIM](https://webaim.org/resources/contrastchecker/) to ensure that the colour contrasts meet accessibility guidelines. 
+ 
+
+-   #### Typography
+    -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
     -   #### Imagery
         -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
 
@@ -184,7 +207,10 @@ The principles of Interactive Design (IxD) promote consistency, predictability, 
 1. [GIMP:](https://www.gimp.org/)    
     - GIMP was used to resize images, edit photos for the website and edit the logo for use as a favicon. 
 1. [favicon.io:](https://favicon.io/favicon-converter/)    
-    - favicon.io was used to convert the GIMP edited logo image to a favicon to enable full web browser compatibility.         
+    - favicon.io was used to convert the GIMP edited logo image to a favicon to enable full web browser compatibility.   
+1. [WebAIM](https://webaim.org/resources/contrastchecker/)          
+    - WebAIM was used to check that foreground and background colour contrasts meet WCAG accessibility requirements.
+
 
 ## Testing
 
