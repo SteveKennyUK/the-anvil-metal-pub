@@ -137,10 +137,11 @@ The layout and content of the site has been designed with the User Experience at
     - The design will broadly follow the 'rule of thirds' to provide a visually comforting experience to the user. Where appropriate, sections will be divided into thirds or one-third to two-thirds ratios.
     - Sizings of elements will be balanced and proportional to again improve the visual comfort of the site. Where appropriate, widths and heights will be sized in multiples of 150px. 
     - Layouts will be responsive to different screen sizes, particularly as many users will be expected to view the site on mobile devices. Consequently, the layout will change according to media size e.g. three horizontal columns on a desktop may become three vertical columns on a mobile phone.
+    
 
 -   #### Colour Scheme
     - The colour scheme for this site is very important in making the user feel immediately comfortable. Heavy metal music is synonymous with dark colours, with album covers and clothing most often a black background with lighter text. Users will expect such colours and this will be consistent with previous user experiences.
-    - The headers and footers will be white copy on a black background. Deep purple will also be used, chosen for its visuals and for it also being the name of a pioneering heavy metal band. These will be complemented by lighter grey, yellow and orange tones for text and buttons.
+    - The headers and footers will be white copy on a black background. Deep purple will also be used, chosen for its visuals and for it also being the name of a pioneering British rock/heavy metal band. These will be complemented by lighter grey, yellow and orange tones for text and buttons.
     - The main colours will be
 
       #000 - Black
@@ -159,17 +160,22 @@ The layout and content of the site has been designed with the User Experience at
  
 
 -   #### Typography
-    -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
-    -   #### Imagery
-        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+    - The font choices for the site will again consider the user and remain consistent with their experiences and expectations. The writing on heavy metal posters, clothing and websites has an instantly recognisable and associative look, which this site will aim to reproduce.
+    -   [Google Fonts](https://fonts.google.com/) has a [Metal Mania](https://fonts.google.com/specimen/Metal+Mania?preview.text=opening%20hours&preview.text_type=custom#standard-styles) font which will be used for headings. It is not the intention to overuse this font so it will be used for `h1` and `h2` headings. [Montserrat](https://fonts.google.com/specimen/Montserrat?preview.text=Contact%20Us&preview.text_type=custom&query=mon#about) will be used for other headings and the main body text. Montserrat is a clean and popular font but also has an urban feel to it so is ideal for the site. Montserrat will also act as a websafe font for Metal Mania, as the latter may not be universally supported. Sans serif will act as a fallback font in case the chosen fonts are not imported correctly.
 
-*   ### Wireframes
+-   #### Imagery
+    -   Imagery will be an important factor in making the user feel at ease. As the average user will be visiting the site for specific information, they will not want ot be subjected to large blocks of text. Rather, rock/heavy metal and pub imagery is more important to make the user feel at ease, alongside clear access to the information they seek.
+    - Each page, other than the Contact page, will have a hero image to catch the user's attention and draw them into the page. The image will be relevant to the contents of each specific page. This is consistent, predictable and learnable, thus helping to achieve a positive emotional response in the user.
+    
+-   #### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/)
+    -   [Home Page](https://github.com/SteveKennyUK/the-anvil-metal-pub/blob/master/assets/wireframes/the-anvil-home-screen-wireframe.pdf) Wireframe
 
-    -   Mobile Wireframe - [View](https://github.com/)
+    -   [Drink Page](https://github.com/SteveKennyUK/the-anvil-metal-pub/blob/master/assets/wireframes/the-anvil-drink-screen-wireframe.pdf) Wireframe
 
-    -   Contact Us Page Wireframe - [View](https://github.com/)
+    -    [Events Page](https://github.com/SteveKennyUK/the-anvil-metal-pub/blob/master/assets/wireframes/the-anvil-events-screen-wireframe.pdf) Wireframe
+
+    -   [Contact](https://github.com/SteveKennyUK/the-anvil-metal-pub/blob/master/assets/wireframes/the-anvil-contact-screen-wireframe.pdf) Wireframe
 
 ## Features
 
@@ -181,17 +187,19 @@ The layout and content of the site has been designed with the User Experience at
 
 ### Languages Used
 
+- The site design will primarily be implemented using [Bootstrap](https://getbootstrap.com/) frameworks plus flexbox and individual styling where required. This provides a responsive layout and is an efficient use of resources.
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+ 
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+1. [Bootstrap 4.6:](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
     - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
 1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+    - Google fonts were used to import the 'Metal Mania' and 'Montserrat' fonts into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 1. [jQuery:](https://jquery.com/)
@@ -201,7 +209,7 @@ The layout and content of the site has been designed with the User Experience at
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
 1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+    - Balsamiq was used to create the [wireframes](https://github.com/SteveKennyUK/the-anvil-metal-pub/tree/master/assets/wireframes) during the design process.
 1. [Wix Logo Maker:](https://www.wix.com/logo/maker/)    
     - Wix Logo Maker was used to create the website logo.
 1. [GIMP:](https://www.gimp.org/)    
