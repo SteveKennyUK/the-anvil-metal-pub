@@ -186,7 +186,6 @@ The layout and content of the site has been designed with the User Experience at
 ## Technologies Used
 ---
 ### Languages Used
----
 
 - The site design will primarily be implemented using [Bootstrap](https://getbootstrap.com/) frameworks plus flexbox and individual styling where required. This provides a responsive layout and is an efficient use of resources.
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
@@ -366,7 +365,12 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Media
 
--   All Images were created by the developer.
+Images were either created by the developer or sourced from third parties. Please see below for third party sources,
+- Home Page
+
+    - 
+
+    
 
 ### Acknowledgements
 
