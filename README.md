@@ -164,7 +164,7 @@ The layout and content of the site has been designed with the User Experience at
     -   [Google Fonts](https://fonts.google.com/) has a [Metal Mania](https://fonts.google.com/specimen/Metal+Mania?preview.text=opening%20hours&preview.text_type=custom#standard-styles) font which will be used for headings. It is not the intention to overuse this font so it will be used for `h1` and `h2` headings. [Montserrat](https://fonts.google.com/specimen/Montserrat?preview.text=Contact%20Us&preview.text_type=custom&query=mon#about) will be used for other headings and the main body text. Montserrat is a clean and popular font but also has an urban feel to it so is ideal for the site. Montserrat will also act as a websafe font for Metal Mania, as the latter may not be universally supported. Sans serif will act as a fallback font in case the chosen fonts are not imported correctly.
 
 -   #### Imagery
-    -   Imagery will be an important factor in making the user feel at ease. As the average user will be visiting the site for specific information, they will not want ot be subjected to large blocks of text. Rather, rock/heavy metal and pub imagery is more important to make the user feel at ease, alongside clear access to the information they seek.
+    -   Imagery will be an important factor in making the user feel at ease. As the average user will be visiting the site for specific information, they will not want to be subjected to large blocks of text. Rather, rock/heavy metal and pub imagery is more important to make the user feel at ease, alongside clear access to the information they seek.
     - Each page, other than the Contact page, will have a hero image to catch the user's attention and draw them into the page. The image will be relevant to the contents of each specific page. This is consistent, predictable and learnable, thus helping to achieve a positive emotional response in the user.
     
 -   #### Wireframes
@@ -184,13 +184,17 @@ The layout and content of the site has been designed with the User Experience at
 -   Interactive elements
 
 ## Technologies Used
-
+---
 ### Languages Used
+---
 
 - The site design will primarily be implemented using [Bootstrap](https://getbootstrap.com/) frameworks plus flexbox and individual styling where required. This provides a responsive layout and is an efficient use of resources.
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
  
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+    
+    - Although no specific naming methodology will be employed (such as BEM), HTML and CSS class names will be descriptive of their purpose so that it can be easily identifiable to other developers.
+    - Comments will be placed appropriately within the HTML and CSS code to improve readability.
 
 ### Frameworks, Libraries & Programs Used
 
