@@ -23,10 +23,22 @@
 
   <body>
     <!-- Header section -->
-    <header>
-      <p>Alert</p>
-      <!-- Navbar : built using Bootstrap Navbar as template then customised with own styling -->           
-          <nav class="navbar sticky-top navbar-fixed-top navbar-expand-md navbar-dark">
+    <header>                       
+        <!-- Alert bar -->
+          <div class="container-fluid alert-container clear-margin-padding">
+            <div class="row d-none d-md-block">
+              <div class="col-12">
+                <div class="alert alert-primary alert-dismissible top-alert-bar clear-margin-padding" role="alert">
+                  <strong>NEW ANNOUNCEMENT!!</strong> IRON HEAD are coming to The Anvil! See the <a href="#" class="alert-link">Events Page</a> for details.
+                  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div> 
+        <!-- Navbar : built using Bootstrap Navbar as template then customised with own styling -->    
+        <nav class="navbar sticky-top navbar-fixed-top navbar-expand-md navbar-dark">
             <!-- Navbar logo  -->
               <a class="navbar-brand" href="/"><img src="/assets/images/logo.png" alt="The Anvil logo"></a>
                 <!-- Toggle menu -->
@@ -64,7 +76,8 @@
               <div class="d-none d-md-block">
                 <a href="#" class="btn btn-cta btn-yellow">Subscribe</a>
               </div>
-          </nav>
+        </nav>
+      </div>
       <!-- /navbar -->
     </header>
 

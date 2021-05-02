@@ -21,6 +21,11 @@ h1, h2 {
     font-family: 'Metal Mania', 'Montserrat', sans-serif;
 }
 
+.clear-margin-padding {
+    margin: 0;
+    padding: 0;
+}
+
 /*----------------- Colours -------------------*/
 
 .navbar, 
@@ -30,6 +35,16 @@ h1, h2 {
 
 .dropdown-item {
     color: #fff;
+}
+
+/*----------------- Alert bar -------------------*/
+.top-alert-bar {
+    background-color: #f7ad10;
+    border-color: #f7ad10;
+    color: #000;
+    border-radius: 0;
+    text-align: center;
+    font-weight: 500;
 }
 
 /*----------------- Navbar -------------------*/
@@ -106,3 +121,6 @@ h1, h2 {
     background-color: #f7ad10;
 }
 
+.alert-dismissible .close {
+    padding: 0 1.25rem;
+}
