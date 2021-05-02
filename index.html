@@ -16,6 +16,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
     <link rel="manifest" href="assets/images/favicon/site.webmanifest">
     <script src="https://kit.fontawesome.com/41e7f870c2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg==" crossorigin="anonymous" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <title>The Anvil Rock and Metal Pub</title>
   </head>
@@ -25,44 +26,45 @@
     <header>
       <p>Alert</p>
       <!-- Navbar : built using Bootstrap Navbar as template then customised with own styling -->           
-      <nav class="navbar navbar-expand-md navbar-dark">
-        <!-- Navbar logo  -->
-        <a class="navbar-brand" href="/"><img src="/assets/images/logo.png" alt="The Anvil logo"></a>
-        <!-- Toggle menu -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- Navbar links -->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    About
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Hours</a>
-                    <a class="dropdown-item" href="#">Facilities</a>
-                    <a class="dropdown-item" href="#">Testimonials</a>
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Drink</a>
-                </li>          
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Events</a>
-                </li> 
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
-                </li> 
-            </ul>           
-         </div>
-         <div class="d-none d-md-block">
-          <a href="#" class="btn btn-cta btn-orange">Subscribe</a>
-        </div>
-      </nav>
+          <nav class="navbar sticky-top navbar-fixed-top navbar-expand-md navbar-dark">
+            <!-- Navbar logo  -->
+              <a class="navbar-brand" href="/"><img src="/assets/images/logo.png" alt="The Anvil logo"></a>
+                <!-- Toggle menu -->
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                    <!-- Navbar links -->
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                              <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle hvr-float-shadow" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                About
+                              </a>
+                              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Hours</a>
+                                <a class="dropdown-item" href="#">Facilities</a>
+                                <a class="dropdown-item" href="#">Testimonials</a>
+                              </div>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link hvr-float-shadow" href="#">Drink</a>
+                            </li>          
+                            <li class="nav-item">
+                              <a class="nav-link hvr-float-shadow" href="#">Events</a>
+                            </li> 
+                            <li class="nav-item">
+                              <a class="nav-link hvr-float-shadow" href="#">Contact</a>
+                            </li> 
+                        </ul>           
+                    </div>
+              <!-- CTA button -->      
+              <div class="d-none d-md-block">
+                <a href="#" class="btn btn-cta btn-yellow">Subscribe</a>
+              </div>
+          </nav>
       <!-- /navbar -->
     </header>
 

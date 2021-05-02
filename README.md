@@ -148,7 +148,9 @@ The layout and content of the site has been designed with the User Experience at
 
       [#36013f](https://icolorpalette.com/color/deep-purple) - Deep Purple
 
-      [#e2b659](https://icolorpalette.com/color/e2b659) - Light Orange Shade
+      ~~[#e2b659](https://icolorpalette.com/color/e2b659) - Light Orange Shade~~
+
+      [#f7ad10](https://icolorpalette.com/color/f7ad10) - Deeper Orange Color. Once colours were added to the site, it was felt that this deeper orange shade provides a better contrast. 
 
       [#f9f871](https://icolorpalette.com/color/f9f871) - Yellow Shade
 
