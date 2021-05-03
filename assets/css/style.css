@@ -66,6 +66,8 @@ h1 {
     font-weight: 500;
 }
 
+
+
 /*================= Navbar =================*/
 /*--- Navbar logo ---*/
 .navbar-brand img{
@@ -146,7 +148,7 @@ h1 {
     height: 80vh;
     background-color: #000;
     position: relative;
-}
+    }
 /*--- opacity layer over hero image ---*/
 .hero-overlay {
     height: 100%;

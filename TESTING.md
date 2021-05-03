@@ -66,7 +66,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
-### Bugs
+### Resolved Bugs
 ---
 
 -   After repositioning and resizing the navbar elements, then setting ```class="d-none d-md-block"```, theCTA button on the right hand side of the navbar would not display on tablet devices. 
@@ -74,3 +74,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     - I played around with the d-class to see if that would make a difference but the issue was still there if the class was removed entirely. This suggested that the bug may be related to the stylings I had added. 
     - Some research on [Stack Overflow](https://stackoverflow.com/questions/26674303/bootstrap-navbar-not-displaying-correctly-on-tablet) suggested that indeed the measurements used to style the navbar may be the issue. Changing the navbar margins and font size confirmed this theory. Removing the margin and reducing the font size displayed the CTA on tablet devices.
     - However, I did not like what this did to the desktop screen displays. There was an option to remove the CTA from tablets or replace the menu with a toggler, as with mobile devices. I felt that there was room for the menu names and the CTA button on the tablets and it looked better so I set media queries for the tablet sizes to reduce the margin and font size. I then set a media query to increase margin and font size for 4K devices so that the nav items displayed as desired on all device sizes.
+
+### Unresolved Bugs
+---
+- When using the Bootstrap ```.fixed-top``` class to make the navbar fixed, the navbar would then cover the container below and the alert bar above. I resolved the container overlay by adding some margin to the top of the container. Adding margin to the bottom of the alert bar did not work so I added margin at the top of the navbar. This did reveal the alert bar but when scrolling, the alert bar would also scroll up. I needed to find another way to make the alert bar visible and stick in position. Using ```position-fixed``` and a z-index above the navbar z-index set in Bootstrap seemed to work. However, if the alert bar was dismissed, a blank space was left rather than the navbar moving up to replace it. I decided to leave the navbar without fixed positioning.
+
+   
