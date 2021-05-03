@@ -21,7 +21,12 @@ h1, h2 {
     font-family: 'Metal Mania', 'Montserrat', sans-serif;
 }
 
-.clear-margin-padding {
+h1 {
+    font-size: 75px;
+}
+
+.clear-margin-padding,
+.jumbotron {
     margin: 0;
     padding: 0;
 }
@@ -33,8 +38,22 @@ h1, h2 {
     background-color: #000;   
 }
 
-.dropdown-item {
+.dropdown-item,
+.hero-container,
+.hero-text-icons a {
     color: #fff;
+}
+
+.btn-yellow {
+    background-color: #f9f871;
+}
+
+.btn-yellow:hover {
+    background-color: #f7ad10;
+}
+
+.hero-text-icons a:hover {
+    color: #f7ad10;
 }
 
 /*================= Alert bar =================*/
@@ -48,11 +67,10 @@ h1, h2 {
 }
 
 /*================= Navbar =================*/
-
 /*--- Navbar logo ---*/
 .navbar-brand img{
-    height: 75px;
-    width: 75px;
+    height: 50px;
+    width: 50px;
     border-style: solid;
     border-color: #f5f5f5;
     border-width: 1px;
@@ -113,43 +131,59 @@ h1, h2 {
     font-weight: 600;
     padding-top: 12px;
 }
-
-.btn-yellow {
-    background-color: #f9f871;
-}
-
-.btn-yellow:hover {
-    background-color: #f7ad10;
-}
-
 /*--- Reposition dismiss button on alert bar ---*/
 .alert-dismissible .close {
     padding: 0 1.25rem;
 }
 
 /*================= Hero sections =================*/
-
+/*--- Code Institute tutorial guidance with lots of individual styling ---*/
 .hero-container {
     background: url(../images/hero-image-home.jpg) center/cover no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover; 
-    height: 70vh;
+    height: 80vh;
     background-color: #000;
     position: relative;
 }
-
+/*--- opacity layer over hero image ---*/
 .hero-overlay {
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
     position: absolute;
     top: 0;
     left: 0;
 }
-
+/*--- jumbotron centred and made transparent for hero text ---*/
 .jumbotron {
     height: 50vh;
     width: 50%;
-    margin: 50px auto;
+    margin: 10px auto;
+    background-color: transparent;
+}
+/*--- style logo image on hero section ---*/
+.hero-text-image img{
+    height: 150px;
+    width: 150px;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 2px;
+    border-radius: 50%; 
+    margin-bottom: 15px;   
+}
+/*--- social media links on hero section ---*/
+.hero-text-icons a {
+    padding: 10px;
+}
+/*--- Hide hero text overflow on mobile devices ---*/
+/*--- Guidance on hiding scroll bars provided by https://www.w3schools.com/cssref/css3_pr_overflow-x.asp ---*/
+@media only screen and (max-width: 767.95px) {
+    .hero-container, .hero-overlay {
+        overflow:scroll;
+        overflow-x: hidden;
+        height: 90vh;
+    } 
+    
 }
