@@ -223,8 +223,14 @@ The layout and content of the site has been designed with the User Experience at
     - favicon.io was used to convert the GIMP edited logo image to a favicon to enable full web browser compatibility.   
 1. [WebAIM](https://webaim.org/resources/contrastchecker/)          
     - WebAIM was used to check that foreground and background colour contrasts meet WCAG accessibility requirements.
-
-
+1. [Webformatter](https://webformatter.com)   
+    - Webformatter was used to assist in optimising code readability. 
+1. [Autoprefixer](https://autoprefixer.github.io/)   
+    - Autoprefixer was used to parse CSS and add vendor prefixes.
+1. [TinyPNG](https://tinypng.com/)   
+    - Tiny PNG was used for image compression.
+1. [W3Schools](https://www.w3schools.com/)   
+    - W3Schools was used for coding guidance and clarification.      
 ## Testing
 
 
@@ -298,7 +304,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 Images were either created by the developer or sourced from third parties. Please see below for third party sources,
 - Home Page
 
-    - 
+    - Photo by <a href="https://unsplash.com/@mehrad_vosoughi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mehrad Vosoughi</a> on <a href="https://unsplash.com/s/photos/music-pub?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
 
     
 
