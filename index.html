@@ -28,61 +28,62 @@
 
   <body>
     <header>
-      <!-- Alert bar : built using Bootstrap primary alert as template then customised with own styling -->
-      <div class="container-fluid alert-container clear-margin-padding">
-          <div class="row d-none d-md-block">
-              <div class="col-12">
-                  <div class="alert alert-primary alert-dismissible top-alert-bar clear-margin-padding" role="alert">
-                      <strong>IRON HEAD are coming to The Anvil!</strong>
-                      See the <a href="#" class="alert-link">Events Page</a> for details.
-                      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                      </button>
-                  </div>
-              </div>
-          </div>
-      </div>
-      <!-- Navbar : built using Bootstrap Navbar as template then customised with own styling -->
-      <nav class="navbar navbar-expand-md navbar-dark">
-          <!-- Navbar logo  -->
-          <a class="navbar-brand" href="/"><img src="/assets/images/logo.png" alt="The Anvil logo" /></a>
-          <!-- Toggle menu -->
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          <!-- Navbar links -->
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ml-auto">
-                  <li class="nav-item active">
-                      <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle hvr-float-shadow" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          About
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <a class="dropdown-item" href="#">Hours</a>
-                          <a class="dropdown-item" href="#">Facilities</a>
-                          <a class="dropdown-item" href="#">Testimonials</a>
-                      </div>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link hvr-float-shadow" href="#">Drink</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link hvr-float-shadow" href="#">Events</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link hvr-float-shadow" href="#">Contact</a>
-                  </li>
-              </ul>
-          </div>
-          <!-- CTA button -->
-          <div class="d-none d-md-block">
-              <a href="#" class="btn btn-cta btn-yellow">Subscribe</a>
-          </div>
-      </nav>
-  </header>
+        <!-- Alert bar : built using Bootstrap primary alert as template then customised with own styling -->
+        <div class="container-fluid alert-container clear-margin-padding">
+            <div class="row d-none d-md-block">
+                <div class="col-12">
+                    <div class="alert alert-primary alert-dismissible top-alert-bar clear-margin-padding" role="alert">
+                        <strong>IRON HEAD are coming to The Anvil!</strong>
+                        See the <a href="#" class="alert-link">Events Page</a> for details.
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar : built using Bootstrap Navbar as template then customised with own styling -->
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <!-- Navbar logo  -->
+            <a class="navbar-brand" href="/"><img src="/assets/images/logo.png" alt="The Anvil logo" /></a>
+            <!-- Toggle menu -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle hvr-float-shadow" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            About
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Hours</a>
+                            <a class="dropdown-item" href="#">Facilities</a>
+                            <a class="dropdown-item" href="#">Testimonials</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hvr-float-shadow" href="#">Drink</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hvr-float-shadow" href="#">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hvr-float-shadow" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- CTA button -->
+            <div class="d-none d-md-block">
+                <a href="#" class="btn btn-cta btn-yellow">Subscribe</a>
+            </div>
+        </nav>
+    </header>
+    
   
     <!-- Hero section - guidance from Code Institute tutorial -->
     <section>
@@ -114,23 +115,88 @@
                 </div>
             </div>
         </div>
-    </section>
-    
-
-    <section>
-      <p>Hours</p>
-    </section>
-
-    <section>
-      <p>Facilities</p>
-    </section>
-
-    <section>
-      <p>Testimonials</p>
-    </section>
+    </section>   
+    <!-- Our Hours section -->
+    <div class="container hours-container">
+        <section class="hours">
+            <div class="row">
+                <div class="col-12 section-header">
+                    <h2 class="text-uppercase">Our Hours</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-8 justify-content-md-center col-lg-4">
+                    <h3>Opening Hours</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <h3>Happy Hour</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <h3>Headbanging Hours</h3>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Facilities section -->
+    <div class="container facilities-container">
+        <section class="facilities">
+            <div class="row">
+                <div class="col-12 section-header">
+                    <h2 class="text-uppercase">Facilities</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    
+                </div>
+            </div>        
+        </section>
+    </div>
+    <!-- Testimonials section -->
+    <div class="container d-flex testimonial-container">
+        <section class="testimonials">
+            <div class="row">
+                <div class="col-12 section-header">
+                    <h2 class="text-uppercase">Testimonials</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 testim-left">
+                    <p>First quote</p>
+                </div>
+                <div class="col-12 col-md-6 testim-left">
+                    <p>Second quote</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 testim-right">
+                    <p>Third quote</p>
+                </div>
+                <div class="col-12 col-md-6 testim-right">
+                    <p>Fourth quote</p>
+                </div>
+            </div>
+        </section>
+    </div>
 
     <footer>
-
+        <div class="container-fluid d-flex">
+            <div class="row">
+                <div class="col-12 col-md-4 footer-media">
+                    <p>Social media</p>
+                </div>
+                <div class="col-12 col-md-4 footer-media">
+                    <p>Address</p>
+                </div>
+                <div class="col-12 col-md-4 footer-media">
+                    <p>Legal</p>
+                </div>
+            </div>
+        </div>
     </footer>
     
 
