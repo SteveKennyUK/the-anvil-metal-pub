@@ -61,7 +61,7 @@
                             About
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Hours</a>
+                            <a class="dropdown-item" href="#hours">Hours</a>
                             <a class="dropdown-item" href="#">Facilities</a>
                             <a class="dropdown-item" href="#">Testimonials</a>
                         </div>
@@ -78,15 +78,15 @@
                 </ul>
             </div>
             <!-- CTA button -->
-            <div class="d-none d-md-block">
+            <div class="d-none d-md-block hvr-grow-shadow">
                 <a href="#" class="btn btn-cta btn-yellow">Subscribe</a>
             </div>
         </nav>
     </header>
     
   
-    <!-- Hero section - guidance from Code Institute tutorial -->
-    <section>
+    <!-- Hero section - credit: guidance from Code Institute tutorial -->
+    <section role="banner" aria-label="Hero Image">
         <div class="container-fluid hero-container">
             <div class="hero-overlay">
                 <div class="row">
@@ -108,7 +108,7 @@
                                     Want to be the first to hear about our promotions and events? <br />
                                     Subscribe to our mailing list and be entered into our monthly prize draw.
                                 </p>
-                                <a href="#" class="btn btn-cta btn-yellow">Subscribe</a>
+                                <a href="#" class="btn btn-cta btn-yellow hvr-grow-shadow">Subscribe</a>
                             </div>
                         </div>
                     </div>
@@ -118,25 +118,55 @@
     </section>   
     <!-- Our Hours section -->
     <div class="container hours-container">
-        <section class="hours">
-            <div class="row">
+        <section class="hours" id="hours">          
+            <div class="row justify-content-center">
                 <div class="col-12 section-header">
-                    <h2 class="text-uppercase">Our Hours</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-8 justify-content-md-center col-lg-4">
-                    <h3>Opening Hours</h3>
-                </div>
-            </div>
-            <div class="row">
+                    <h2 class="text-uppercase text-centre m-4"><i class="far fa-clock"></i> Our Hours</h3>
+                </div>            
+            <!-- Opening hours-->            
+                <div class="col-12 col-md-8 col-lg-4 mb-1">
+                    <div class="card">
+                        <h5 class="card-header"><i class="fas fa-door-open"></i> Opening Hours</h5>
+                        <div class="card-body">
+                          <h5 class="card-title">Welcome to The Anvil!</h5>
+                          <p class="card-text">We're ready and waiting to serve you fabulous drinks with the best music on this beautiful planet.</p>
+                          <ul class="list-group list-group-flush">
+                            <li class="list-group-item font-weight-bold">Sunday-Wednesday: 11.00-23.00hrs</li>
+                            <li class="list-group-item font-weight-bold">Thursday-Friday: 11.00-01.00hrs</li>
+                            <li class="list-group-item font-weight-bold">Saturday: 11.00-03.00hrs</li>
+                          </ul>
+                        </div>
+                      </div>
+                </div>            
+            <!-- Happy hour -->            
+                <div class="col-12 col-md-6 col-lg-4 mb-1">
+                    <div class="card">
+                        <h5 class="card-header"><i class="fas fa-beer"></i> Happy Hour</h5>
+                        <div class="card-body">
+                          <h5 class="card-title">Looking for a bargain?!</h5>
+                          <p class="card-text">Enjoy our great drinks for less every night of the week <strong>16.00-19.00hrs</strong></p>
+                          <ul class="list-group list-group-flush">
+                            <li class="list-group-item font-weight-bold">All pints - £1 off</li>
+                            <li class="list-group-item font-weight-bold">Spirits - make it a double for nothing</li>
+                            <li class="list-group-item font-weight-bold">Wines - buy two glasses and get the rest of the bottle FREE</li>
+                            <li class="list-group-item font-weight-bold">Cocktails - 3 for the price of 2</li>
+                        </ul>
+                        <div class="text-centre">
+                          <a href="#" class="btn btn-primary btn-cta btn-purple hvr-grow-shadow">Drink</a>
+                        </div>
+                        </div>
+                      </div>
+                </div>            
+            <!-- Event hours-->            
                 <div class="col-12 col-md-6 col-lg-4">
-                    <h3>Happy Hour</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-4">
-                    <h3>Headbanging Hours</h3>
+                    <div class="card">
+                        <h5 class="card-header"><i class="fas fa-music"></i> Headbanging Hours</h5>
+                        <div class="card-body">
+                          <h5 class="card-title">Special title treatment</h5>
+                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
                 </div>
             </div>
         </section>
@@ -182,6 +212,7 @@
             </div>
         </section>
     </div>
+
     <!-- Footer - use Bootstrap and flexbox to reverse row order for medium screen sizes and above -->
     <footer>
         <div class="container-fluid d-md-flex flex-row-reverse justify-content-around footer">
@@ -198,13 +229,13 @@
             <!-- Contact details --> 
             <div class="row">    
                 <div class="col-12 footer-item">
-                    <h3 class="underline">Find Us</h3>
+                    <h3 class="underline text-icon-links"><a href="#">Find Us</a></h3>
                     <ul class="list-unstyled text-icon-links">
                         <li><a href="mailto:contact@theanvil.co.uk" aria-label="email address contact@theanvil.co.uk"><i class="far fa-envelope"></i> Email</a></li>
                         <li><a href="tel:02085555555" aria-label="telephone number 02085555555"><i class="fas fa-phone"></i> Telephone</a></li>
                     </ul>
                     <ul class="list-unstyled small">
-                        <li><h5><strong>The Anvil</strong></h5></li>
+                        <li><strong>The Anvil</strong></li>
                         <li>Old Church</li>
                         <li>Buck Street</li>
                         <li>London</li>
@@ -237,3 +268,4 @@
     
   </body>
 </html>
+

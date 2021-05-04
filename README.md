@@ -154,11 +154,13 @@ The layout and content of the site has been designed with the User Experience at
 
       [#f9f871](https://icolorpalette.com/color/f9f871) - Yellow Shade
 
-      [f5f5f5](https://icolorpalette.com/color/f5f5f5) - Light Grey Shade
+      [#f5f5f5](https://icolorpalette.com/color/f5f5f5) - Light Grey Shade
 
       #fff - White
 
     - The chosen colours have been checked with [WebAIM](https://webaim.org/resources/contrastchecker/) to ensure that the colour contrasts meet accessibility guidelines. 
+
+    - An additional colour was required to contrast with the Deep Purple for hover changes. A lighter [#9370db](https://icolorpalette.com/color/9370db) was initially tried but did not meet the WebAIM guidelines. Reducing the lightness on the WebAIM provided a more suitable [#5E2FBC](https://icolorpalette.com/color/5E2FBC) 'Purple Heart' colour. 
  
 
 -   #### Typography

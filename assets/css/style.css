@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 /*================= General Styling =================*/
-
 * {
     margin: 0;
     padding: 0;
@@ -29,6 +28,7 @@ h3 {
     font-size: 1.25rem;
 }
 
+/*================= Special Repeat Styling =================*/
 .clear-margin-padding,
 .jumbotron {
     margin: 0;
@@ -37,6 +37,10 @@ h3 {
 
 .underline {
     text-decoration: underline;
+}
+
+.text-centre {
+    text-align: center;
 }
 
 /*================= Colours =================*/
@@ -62,6 +66,14 @@ h3 {
     background-color: #f7ad10;
 }
 
+.btn-purple {
+    background-color: #5E2FBC;
+}
+
+.btn-purple:hover {
+    background-color: #36013f;
+}
+
 .text-icon-links a:hover {
     color: #f7ad10;
 }
@@ -79,7 +91,7 @@ h3 {
 
 
 /*================= Navbar =================*/
-/*--- Navbar logo ---*/
+/*--- navbar logo ---*/
 .navbar-brand img{
     height: 50px;
     width: 50px;
@@ -88,7 +100,7 @@ h3 {
     border-width: 1px;
     border-radius: 50%;
 }
-/*--- Navbar links ---*/
+/*--- navbar links ---*/
 .navbar-nav {
     margin-right: 150px;
     font-size: 125%;
@@ -99,7 +111,7 @@ h3 {
     padding: 18px;
 }
 
-    /*--- Media query to fit CTA button onto tablet navbar ---*/
+    /*--- media query to fit CTA button onto tablet navbar ---*/
 @media only screen and (min-width: 768px) and (max-width: 979px){
     .navbar-nav {
         margin-right: 0;
@@ -107,14 +119,14 @@ h3 {
     }
 }
 
-    /*--- Media query to improve 4K navbar visibility ---*/
+    /*--- media query to improve 4K navbar visibility ---*/
 @media only screen and (min-width: 2560px) {
     .navbar-nav {
         margin-right: 300px;
         font-size: 150%;
     }
 }
-    /*--- Active link ---*/
+    /*--- active link ---*/
 .navbar-dark .navbar-nav .active {
     color: #f7ad10;
     font-weight: 700;
@@ -122,19 +134,18 @@ h3 {
     border-width: 0 0 2px 0;
     border-color: #f9f871;
   }
-    /*--- Nav links hover float shadow effect - https://ianlunn.github.io/Hover/ ---*/
+    /*--- nav links hover float shadow effect - credit for hover effects: https://ianlunn.github.io/Hover/ ---*/
 .hvr-float-shadow:before {    
     background: #f5f5f5;
     height: 3px;
     border-radius: 25%;
 }
-    /*--- Remove 'hamburger menu' border ---*/
+    /*--- remove 'hamburger menu' border ---*/
 .navbar .navbar-toggler {
     border: 0;
 }
 
 /*================= Buttons =================*/
-
 /*--- CTA button ---*/
 .btn-cta {
     width: 125px;
@@ -143,13 +154,13 @@ h3 {
     font-weight: 600;
     padding-top: 12px;
 }
-/*--- Reposition dismiss button on alert bar ---*/
+/*--- reposition dismiss button on alert bar ---*/
 .alert-dismissible .close {
     padding: 0 1.25rem;
 }
 
 /*================= Hero sections =================*/
-/*--- Code Institute tutorial guidance with lots of individual styling ---*/
+/*--- credit: Code Institute tutorial guidance with lots of individual styling ---*/
 .hero-container {
     background: url(../images/hero-image-home.jpg) center/cover no-repeat fixed;
     -webkit-background-size: cover;
@@ -189,16 +200,14 @@ h3 {
 .text-icon-links a {
     padding: 10px;
 }
-/*--- Increase screen height to avoid overflow on mobile devices ---*/
+/*--- increase screen height to avoid overflow on mobile devices ---*/
 @media only screen and (max-width: 767.95px) {
     .hero-container, .hero-overlay {
         height: 120vh;
     }
-
 }
 
 /*================= Footer =================*/
-
 .footer {
     height: 100%;
     width: 100%; 
@@ -210,4 +219,25 @@ h3 {
 
  .footer .row .footer-item ul {
     color: #adb5bd;
+}
+
+/*================= Hours section =================*/
+.hours {
+    height: 600px;
+}
+
+/*--- make screen height responsive to avoid overflow on mobile devices ---*/
+@media only screen and (max-width: 768px) {
+    .hours {
+        height: 100%;
+    }
+}
+/*-- credit: W3S for guidance on using box-shadow https://www.w3schools.com/cssref/css3_pr_box-shadow.asp */
+.card {
+    border-radius: 15px;
+    box-shadow: 10px 10px 15px #36013f;
+}
+
+.card-text {
+    font-weight: 600;
 }
