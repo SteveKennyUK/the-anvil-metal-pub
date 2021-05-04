@@ -80,6 +80,20 @@ h3 {
     color: #f7ad10;
 }
 
+/*================= Buttons =================*/
+/*--- CTA button ---*/
+.btn-cta {
+    width: 125px;
+    height: 50px;
+    border-radius: 25px;
+    font-weight: 600;
+    padding-top: 12px;
+}
+/*--- reposition dismiss button on alert bar ---*/
+.alert-dismissible .close {
+    padding: 0 1.25rem;
+}
+
 /*================= Alert bar =================*/
 .top-alert-bar {
     background-color: #f7ad10;
@@ -89,8 +103,6 @@ h3 {
     text-align: center;
     font-weight: 500;
 }
-
-
 
 /*================= Navbar =================*/
 /*--- navbar logo ---*/
@@ -145,20 +157,6 @@ h3 {
     /*--- remove 'hamburger menu' border ---*/
 .navbar .navbar-toggler {
     border: 0;
-}
-
-/*================= Buttons =================*/
-/*--- CTA button ---*/
-.btn-cta {
-    width: 125px;
-    height: 50px;
-    border-radius: 25px;
-    font-weight: 600;
-    padding-top: 12px;
-}
-/*--- reposition dismiss button on alert bar ---*/
-.alert-dismissible .close {
-    padding: 0 1.25rem;
 }
 
 /*================= Hero sections =================*/
