@@ -54,7 +54,8 @@ h3 {
 .dropdown-item,
 .hero-container,
 .text-icon-links a,
-.footer {
+.footer,
+.card-header {
     color: #fff;
 }
 
@@ -70,7 +71,8 @@ h3 {
     background-color: #5E2FBC;
 }
 
-.btn-purple:hover {
+.btn-purple:hover,
+.card-header {
     background-color: #36013f;
 }
 
@@ -201,9 +203,9 @@ h3 {
     padding: 10px;
 }
 /*--- increase screen height to avoid overflow on mobile devices ---*/
-@media only screen and (max-width: 767.95px) {
+@media only screen and (max-width: 767px) {
     .hero-container, .hero-overlay {
-        height: 120vh;
+        height: 150vh;
     }
 }
 
@@ -223,21 +225,37 @@ h3 {
 
 /*================= Hours section =================*/
 .hours {
-    height: 600px;
+    height: 750px;
 }
 
-/*--- make screen height responsive to avoid overflow on mobile devices ---*/
-@media only screen and (max-width: 768px) {
-    .hours {
-        height: 100%;
-    }
+.section-header h2,
+.section-header h2 i {
+    font-weight: 600;
 }
+
 /*-- credit: W3S for guidance on using box-shadow https://www.w3schools.com/cssref/css3_pr_box-shadow.asp */
 .card {
     border-radius: 20px;
+    overflow: hidden;
     box-shadow: 10px 10px 15px #36013f;
 }
 
 .card-text {
     font-weight: 600;
+}
+/*-- media queries --*/
+    /*--- make screen height responsive to avoid overflow on mobile devices ---*/
+@media only screen and (max-width: 768px) {
+    .hours {
+        height: 100%;
+    }
+}
+    /*--- move the event hours section to top of the container for tablet devices as it is a longer section and will display better ---*/
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .event-hours {
+        order: -1;
+    }
+    .hours-header {
+        order: -2;
+    }
 }
