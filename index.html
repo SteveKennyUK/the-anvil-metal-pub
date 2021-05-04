@@ -97,7 +97,7 @@
                             <div class="hero-text-image text-center">
                                 <img src="./assets/images/logo-transparent.png" alt="The Anvil pub logo" />
                             </div>
-                            <div class="social-media-icons text-center">
+                            <div class="text-icon-links text-center">
                                 <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="The Anvil Facebook page (link opens in a new tab)"><i class="fab fa-facebook"></i></a>
                                 <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="The Anvil Instagram page (link opens in a new tab)"><i class="fab fa-instagram"></i></a>
                                 <a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="The Anvil Twitter page (link opens in a new tab)"><i class="fab fa-twitter"></i></a>
@@ -185,27 +185,49 @@
     <!-- Footer - use Bootstrap and flexbox to reverse row order for medium screen sizes and above -->
     <footer>
         <div class="container-fluid d-md-flex flex-row-reverse justify-content-around footer">
+            <!-- Social media icons -->
             <div class="row">
-                <div class="col-12 social-media-icons footer-item">
-                    <h3>Follow Us<h3>
+                <div class="col-12 text-icon-links footer-item">
+                    <h3 class="underline">Follow Us<h3>
                         <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="The Anvil Facebook page (link opens in a new tab)"><i class="fab fa-facebook"></i></a>
                         <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="The Anvil Instagram page (link opens in a new tab)"><i class="fab fa-instagram"></i></a>
                         <a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="The Anvil Twitter page (link opens in a new tab)"><i class="fab fa-twitter"></i></a>
                         <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="The Anvil YouTube page (link opens in a new tab)"><i class="fab fa-youtube"></i></a>    
                 </div>
-            </div>
+             </div>
+            <!-- Contact details --> 
             <div class="row">    
-                <div class="col-12 footer-address footer-item">
-                    <p>Address</p>
+                <div class="col-12 footer-item">
+                    <h3 class="underline">Find Us</h3>
+                    <ul class="list-unstyled text-icon-links">
+                        <li><a href="mailto:contact@theanvil.co.uk" aria-label="email address contact@theanvil.co.uk"><i class="far fa-envelope"></i> Email</a></li>
+                        <li><a href="tel:02085555555" aria-label="telephone number 02085555555"><i class="fas fa-phone"></i> Telephone</a></li>
+                    </ul>
+                    <ul class="list-unstyled small">
+                        <li><h5><strong>The Anvil</strong></h5></li>
+                        <li>Old Church</li>
+                        <li>Buck Street</li>
+                        <li>London</li>
+                        <li>NW1 8NJ</li>
+                    </ul>              
                 </div>
-            </div> 
+            </div>
+            <!-- Legal details --> 
+            <!-- Links currently set to Home Page as this is a fictitious site. Links to other pages would be used for a real site -->
             <div class="row">
                 <div class="col-12 footer-legal footer-item">
-                    <p>Legal</p>
+                    <h3 class="underline">Legal</h3>
+                    <ul class="list-unstyled text-icon-links">
+                        <li class="p-2"><a href="/">Privacy policy</a></li>
+                        <li class="p-2"><a href="/">Terms & conditions</a></li>
+                        <li class="p-2"><a href="/">Accessibility policy</a></li>
+                    </ul>            
                 </div>
             </div>           
         </div>
     </footer>
+    
+    
     
 
     <!-- JavaScript -->

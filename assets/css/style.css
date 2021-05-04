@@ -35,6 +35,10 @@ h3 {
     padding: 0;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 /*================= Colours =================*/
 
 .navbar, 
@@ -45,7 +49,7 @@ h3 {
 
 .dropdown-item,
 .hero-container,
-.social-media-icons a,
+.text-icon-links a,
 .footer {
     color: #fff;
 }
@@ -58,7 +62,7 @@ h3 {
     background-color: #f7ad10;
 }
 
-.social-media-icons a:hover {
+.text-icon-links a:hover {
     color: #f7ad10;
 }
 
@@ -182,7 +186,7 @@ h3 {
     margin-bottom: 15px;   
 }
 /*--- social media links on hero section ---*/
-.social-media-icons a {
+.text-icon-links a {
     padding: 10px;
 }
 /*--- Increase screen height to avoid overflow on mobile devices ---*/
@@ -196,7 +200,14 @@ h3 {
 /*================= Footer =================*/
 
 .footer {
-    height: 150px;
+    height: 100%;
     width: 100%; 
     text-align: center;   
+}
+ .footer .row .footer-item h3 {
+     padding: 10px;
+ }
+
+ .footer .row .footer-item ul {
+    color: #adb5bd;
 }
