@@ -97,7 +97,7 @@
                             <div class="hero-text-image text-center">
                                 <img src="./assets/images/logo-transparent.png" alt="The Anvil pub logo" />
                             </div>
-                            <div class="hero-text-icons text-center">
+                            <div class="social-media-icons text-center">
                                 <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="The Anvil Facebook page (link opens in a new tab)"><i class="fab fa-facebook"></i></a>
                                 <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="The Anvil Instagram page (link opens in a new tab)"><i class="fab fa-instagram"></i></a>
                                 <a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="The Anvil Twitter page (link opens in a new tab)"><i class="fab fa-twitter"></i></a>
@@ -182,20 +182,28 @@
             </div>
         </section>
     </div>
-
+    <!-- Footer - use Bootstrap and flexbox to reverse row order for medium screen sizes and above -->
     <footer>
-        <div class="container-fluid d-flex">
+        <div class="container-fluid d-md-flex flex-row-reverse justify-content-around footer">
             <div class="row">
-                <div class="col-12 col-md-4 footer-media">
-                    <p>Social media</p>
-                </div>
-                <div class="col-12 col-md-4 footer-media">
-                    <p>Address</p>
-                </div>
-                <div class="col-12 col-md-4 footer-media">
-                    <p>Legal</p>
+                <div class="col-12 social-media-icons footer-item">
+                    <h3>Follow Us<h3>
+                        <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="The Anvil Facebook page (link opens in a new tab)"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="The Anvil Instagram page (link opens in a new tab)"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="The Anvil Twitter page (link opens in a new tab)"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="The Anvil YouTube page (link opens in a new tab)"><i class="fab fa-youtube"></i></a>    
                 </div>
             </div>
+            <div class="row">    
+                <div class="col-12 footer-address footer-item">
+                    <p>Address</p>
+                </div>
+            </div> 
+            <div class="row">
+                <div class="col-12 footer-legal footer-item">
+                    <p>Legal</p>
+                </div>
+            </div>           
         </div>
     </footer>
     

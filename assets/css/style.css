@@ -25,6 +25,10 @@ h1 {
     font-size: 75px;
 }
 
+h3 {
+    font-size: 1.25rem;
+}
+
 .clear-margin-padding,
 .jumbotron {
     margin: 0;
@@ -34,13 +38,15 @@ h1 {
 /*================= Colours =================*/
 
 .navbar, 
-.dropdown-menu {
+.dropdown-menu,
+.footer {
     background-color: #000;   
 }
 
 .dropdown-item,
 .hero-container,
-.hero-text-icons a {
+.social-media-icons a,
+.footer {
     color: #fff;
 }
 
@@ -52,7 +58,7 @@ h1 {
     background-color: #f7ad10;
 }
 
-.hero-text-icons a:hover {
+.social-media-icons a:hover {
     color: #f7ad10;
 }
 
@@ -176,16 +182,21 @@ h1 {
     margin-bottom: 15px;   
 }
 /*--- social media links on hero section ---*/
-.hero-text-icons a {
+.social-media-icons a {
     padding: 10px;
 }
-/*--- Hide hero text overflow on mobile devices ---*/
-/*--- Guidance on hiding scroll bars provided by https://www.w3schools.com/cssref/css3_pr_overflow-x.asp ---*/
+/*--- Increase screen height to avoid overflow on mobile devices ---*/
 @media only screen and (max-width: 767.95px) {
     .hero-container, .hero-overlay {
-        overflow:scroll;
-        overflow-x: hidden;
-        height: 90vh;
-    } 
-    
+        height: 120vh;
+    }
+
+}
+
+/*================= Footer =================*/
+
+.footer {
+    height: 150px;
+    width: 100%; 
+    text-align: center;   
 }
