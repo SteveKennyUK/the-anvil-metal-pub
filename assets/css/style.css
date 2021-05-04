@@ -55,7 +55,9 @@ h3 {
 .hero-container,
 .text-icon-links a,
 .footer,
-.card-header {
+.card-header,
+.facilities h2,
+.facilities-list {
     color: #fff;
 }
 
@@ -72,7 +74,8 @@ h3 {
 }
 
 .btn-purple:hover,
-.card-header {
+.card-header,
+.facilities-container {
     background-color: #36013f;
 }
 
@@ -226,11 +229,10 @@ h3 {
     height: 750px;
 }
 
-.section-header h2,
-.section-header h2 i {
-    font-weight: 600;
+.section-header h2 {
+    font-weight: 500;
+   
 }
-
 /*-- credit: W3S for guidance on using box-shadow https://www.w3schools.com/cssref/css3_pr_box-shadow.asp */
 .card {
     border-radius: 20px;
@@ -256,4 +258,11 @@ h3 {
     .hours-header {
         order: -2;
     }
+}
+
+/*================= Facilities section =================*/
+.facilities-container {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 10px 10px 15px #36014f
 }
