@@ -244,15 +244,21 @@ The layout and content of the site has been designed with the User Experience at
 
 ### GitHub Pages
 
-The project was deployed to GitHub Pages using the following steps...
+This project has been deployed to GitHub Pages. The deployment process is as follows -
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
-3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
-4. Under "Source", click the dropdown called "None" and select "Master Branch".
-5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+1. Log in to GitHub and locate the [relevant repository](https://github.com/SteveKennyUK/the-anvil-metal-pub).
+2. At the top of the Repository, select 'Settings'. See below -
+
+3. On the 'Settings' page, scroll down the menu on the left-hand side and select 'Pages', near the bottom of the menu. See below -
+
+    This will open GitHub pages.
+
+4. Under 'Source', click the dropdown titled 'None' and select the 'master' branch. Click on 'Save'. See below -
+
+
+5. The page will automatically refresh and inform you that the site is ready to be published and provide the https:// address. See below -
+ 
+6. A [link](https://stevekennyuk.github.io/the-anvil-metal-pub/) to the now published site can be found in the GitHub 'Pages' section of 'Settings'.
 
 ### Forking the GitHub Repository
 
