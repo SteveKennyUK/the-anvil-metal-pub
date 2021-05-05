@@ -39,10 +39,6 @@ h3 {
     text-decoration: underline;
 }
 
-.text-centre {
-    text-align: center;
-}
-
 /*================================== Colours ==================================*/
 
 .navbar, 
@@ -290,6 +286,7 @@ h3 {
     }
 }
 /*================================== Testimonials section ==================================*/
+/*-- style the card to create a floating circular image with text below --*/
 .testim-head {
     height: 125px;
     width: 150px;
@@ -298,5 +295,20 @@ h3 {
     border-radius: 50%;
     font-size: 1.3rem;
     font-weight: 600;
+}
+
+.testim-card {
+    box-shadow: none;
+    background-color: #000;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.testim-card img {
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 auto;
 }
 
