@@ -305,9 +305,11 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 Images were either created by the developer or sourced from third parties. Please see below for third party sources,
 - Home Page
-    - Hero image courtesy of [khaosodenglish.com](https://www.khaosodenglish.com/life/arts/2017/03/01/30-hard-years-going-bangkoks-rock-pub/).  
+    - [Hero image](https://github.com/SteveKennyUK/the-anvil-metal-pub/blob/master/assets/images/hero-image-home.jpg) courtesy of [khaosodenglish.com](https://www.khaosodenglish.com/life/arts/2017/03/01/30-hard-years-going-bangkoks-rock-pub/).  
 
-    - Photo by <a href="https://unsplash.com/@mehrad_vosoughi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mehrad Vosoughi</a> on <a href="https://unsplash.com/s/photos/music-pub?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    - [Facilities image 1](https://github.com/SteveKennyUK/the-anvil-metal-pub/blob/master/assets/images/facilities-image.jpg) by <a href="https://unsplash.com/@mehrad_vosoughi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mehrad Vosoughi</a> on <a href="https://unsplash.com/s/photos/music-pub?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>.
+    - [Facilities image 2](https://github.com/SteveKennyUK/the-anvil-metal-pub/blob/master/assets/images/facilities-image-2.jpg) Photo by <a href="https://unsplash.com/@davidhuckphotos?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">David Huck</a> on <a href="https://unsplash.com/s/photos/pool-table?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>.
+  
   
 
     
