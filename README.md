@@ -160,7 +160,10 @@ The layout and content of the site has been designed with the User Experience at
 
     - The chosen colours have been checked with [WebAIM](https://webaim.org/resources/contrastchecker/) to ensure that the colour contrasts meet accessibility guidelines. 
 
-    - An additional colour was required to contrast with the Deep Purple for hover changes. A lighter [#9370db](https://icolorpalette.com/color/9370db) was initially tried but did not meet the WebAIM guidelines. Reducing the lightness on the WebAIM provided a more suitable [#5E2FBC](https://icolorpalette.com/color/5E2FBC) 'Purple Heart' colour. 
+    - **Additional colours**    
+    [#5e2fbc](https://icolorpalette.com/color/5E2FBC) An additional colour was required to contrast with the Deep Purple for hover changes. A lighter [#9370db](https://icolorpalette.com/color/9370db) was initially tried but did not meet the WebAIM guidelines. Reducing the lightness on the WebAIM provided a more suitable [#5e2fbc](https://icolorpalette.com/color/5E2FBC) 'Purple Heart' colour.
+
+        [#adb5bd](https://icolorpalette.com/color/adb5bd) A slightly deeper grey was required for the small footer text.
  
 
 -   #### Typography
