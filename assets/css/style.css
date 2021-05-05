@@ -69,7 +69,8 @@ h3 {
 }
 
 .btn-purple,
-.card-header {
+.card-header,
+.btn-white:hover {
     background-color: #5E2FBC;
 }
 
@@ -81,6 +82,15 @@ h3 {
 .text-icon-links a:hover {
     color: #f7ad10;
 }
+
+.btn-white {
+    background-color: #fff;
+}
+
+.btn-white {
+    color: #36013f;
+}
+
 
 /*================= Buttons =================*/
 /*--- CTA button ---*/
@@ -272,4 +282,10 @@ h3 {
 
 .facilities-list .card {
     box-shadow: 10px 10px 3px #000;
+}
+
+@media only screen and (max-width: 768px) {
+    .facilities-container {
+        height: 100%;
+    }
 }
