@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-/*================= General Styling =================*/
+/*================================== General Styling ==================================*/
 * {
     margin: 0;
     padding: 0;
@@ -28,7 +28,7 @@ h3 {
     font-size: 1.25rem;
 }
 
-/*================= Special Repeat Styling =================*/
+/*================================== Special Repeat Styling ==================================*/
 .clear-margin-padding,
 .jumbotron {
     margin: 0;
@@ -43,7 +43,7 @@ h3 {
     text-align: center;
 }
 
-/*================= Colours =================*/
+/*================================== Colours ==================================*/
 
 .navbar, 
 .dropdown-menu,
@@ -92,7 +92,7 @@ h3 {
 }
 
 
-/*================= Buttons =================*/
+/*================================== Buttons ==================================*/
 /*--- CTA button ---*/
 .btn-cta {
     width: 125px;
@@ -106,7 +106,7 @@ h3 {
     padding: 0 1.25rem;
 }
 
-/*================= Alert bar =================*/
+/*================================== Alert bar ==================================*/
 .top-alert-bar {
     background-color: #f7ad10;
     border-color: #f7ad10;
@@ -116,7 +116,7 @@ h3 {
     font-weight: 500;
 }
 
-/*================= Navbar =================*/
+/*================================== Navbar ==================================*/
 /*--- navbar logo ---*/
 .navbar-brand img{
     height: 50px;
@@ -171,7 +171,7 @@ h3 {
     border: 0;
 }
 
-/*================= Hero sections =================*/
+/*================================== Hero sections ==================================*/
 /*--- credit: Code Institute tutorial guidance with lots of individual styling ---*/
 .hero-container {
     background: url(../images/hero-image-home.jpg) center/cover no-repeat fixed;
@@ -219,7 +219,7 @@ h3 {
     }
 }
 
-/*================= Footer =================*/
+/*================================== Footer ==================================*/
 .footer {
     height: 100%;
     width: 100%; 
@@ -233,7 +233,7 @@ h3 {
     color: #adb5bd;
 }
 
-/*================= Hours section =================*/
+/*================================== Hours section ==================================*/
 .hours {
     height: 750px;
 }
@@ -271,7 +271,7 @@ h3 {
         order: -2;
     }
 }
-/*================= Facilities section =================*/
+/*================================== Facilities section ==================================*/
 /*-- style container and cards; override box-shadow card colour from 'hours' --*/
 .facilities-container {
     border-radius: 20px;
@@ -289,3 +289,14 @@ h3 {
         height: 100%;
     }
 }
+/*================================== Testimonials section ==================================*/
+.testim-head {
+    height: 125px;
+    width: 150px;
+    background-color: #f5f5f5;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+

@@ -21,8 +21,7 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
         integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg=="
         crossorigin="anonymous"
-    />
-    <link rel="stylesheet" type="text/css" href="https://stevekennyuk.github.io/the-anvil-metal-pub/css_root/flaticon.css">
+    />    
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>The Anvil Rock and Metal Pub</title>
 </head>
@@ -64,7 +63,7 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="#hours">Hours</a>
                             <a class="dropdown-item" href="#facilities">Facilities</a>
-                            <a class="dropdown-item" href="#">Testimonials</a>
+                            <a class="dropdown-item" href="#testimonials">Testimonials</a>
                         </div>
                     </li>
                     <li class="nav-item">
@@ -253,27 +252,33 @@
         </section>
     </div>
     <!-- Testimonials section -->
-    <div class="container d-flex testimonial-container">
-        <section class="testimonials">
-            <div class="row">
+    <div class="container testimonial-container mt-4">
+        <section class="testimonials" id="testimonials">
+            <div class="row justify-content-center">
                 <div class="col-12 section-header">
-                    <h2 class="text-uppercase"><i class="fas fa-comments" aria-hidden="true"></i> Testimonials</h2>
+                    <h2 class="text-uppercase text-centre m-4"><i class="fas fa-comments" aria-hidden="true"></i> Testimonials</h2>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-6 testim-left">
-                    <p>First quote</p>
+
+                <div class="col-10 col-md-4 testim-head">
+                    <p class="p-3 pt-4 pt-md-3">Don't believe us? Just listen to these guys!</p>
                 </div>
-                <div class="col-12 col-md-6 testim-left">
+          
+                <div class="col-12 col-md-4 testim-left">
+                    <div class="testim-left-top">
+                        <p>First quote</p>
+                    </div>    
+                    <div class="testim-left-btm">
                     <p>Second quote</p>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-6 testim-right">
-                    <p>Third quote</p>
-                </div>
-                <div class="col-12 col-md-6 testim-right">
-                    <p>Fourth quote</p>
+           
+                <div class="col-12 col-md-4 testim-left">
+                    <div class="testim-right-top">
+                        <p>First quote</p>
+                    </div>    
+                    <div class="testim-right-btm">
+                    <p>Second quote</p>
+                    </div>
                 </div>
             </div>
         </section>
