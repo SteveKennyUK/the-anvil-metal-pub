@@ -241,13 +241,13 @@ The layout and content of the site has been designed with the User Experience at
 
 
 ## Deployment
-
+---
 ### GitHub Pages
 
 This project has been deployed to GitHub Pages. The deployment process is as follows -
 
-1. Log in to GitHub and locate the [relevant repository](https://github.com/SteveKennyUK/the-anvil-metal-pub).
-2. At the top of the Repository, select 'Settings'. See below -
+1. Log in to GitHub and locate the [relevant repository](https://github.com/SteveKennyUK/the-anvil-metal-pub). If you do not have a GitHub account, you may create one [here](https://github.com/join).
+2. At the top of the repository, select 'Settings'. See below -
 ![ ](https://github.com/SteveKennyUK/the-anvil-metal-pub/blob/master/assets/images/deployment/image-1.JPG)
 3. On the 'Settings' page, scroll down the menu on the left-hand side and select 'Pages', near the bottom of the menu. See below -
 ![ ](https://github.com/SteveKennyUK/the-anvil-metal-pub/blob/master/assets/images/deployment/image-2.JPG)
@@ -262,37 +262,45 @@ This project has been deployed to GitHub Pages. The deployment process is as fol
 
 ### Forking the GitHub Repository
 
-By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+It is possible to fork this GitHub repository and make a copy of the original repository to view and/or make changes without affecting the original. This is achieved by following these steps -
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
-3. You should now have a copy of the original repository in your GitHub account.
+1. Log in to your GitHub account and locate the [relevant repository](https://github.com/SteveKennyUK/the-anvil-metal-pub).
+2. Click on 'Fork', located at the top right-hand side of the repository page.
+![ ](https://github.com/SteveKennyUK/the-anvil-metal-pub/blob/master/assets/images/deployment/image-5.JPG)
+3. You will now have a copy of the repository in your own GitHub account.
 
 ### Making a Local Clone
+It is possible to copy the repository to your local machine so that you can fix merge conflicts, add or remove files and push larger commits without affecting the original repository. 
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. Under the repository name, click "Clone or download".
-3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
-4. Open Git Bash
-5. Change the current working directory to the location where you want the cloned directory to be made.
-6. Type `git clone`, and then paste the URL you copied in Step 3.
-
-```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-```
-
-7. Press Enter. Your local clone will be created.
+Cloning a repository pulls down a full copy of all the repository data that GitHub has at that point in time. See [GitHub Docs](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) for further information and below for a summary -
+1.  Log in to your GitHub account and locate the [relevant repository](https://github.com/SteveKennyUK/the-anvil-metal-pub).
+2. Click on the 'Code' button, next to the green 'Gitpod' button. This will reveal the 'Clone' option.
+3. In order to clone the repository using HTTPS, select HTTPS and copy the link. There is a copy button to the right of the URL.
+![ ](https://github.com/SteveKennyUK/the-anvil-metal-pub/blob/master/assets/images/deployment/image-6.JPG)
+4. Next, open Git Bash. See [here](https://git-scm.com/downloads) for download options, if required.
+5. Change the current working directory on your local machine to the location where you want the cloned directory to be made.
+6. Type `git clone` into your IDE terminal followed by the URL you copied in Step 3.
 
 ```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-> Cloning into `CI-Clone`...
-> remote: Counting objects: 10, done.
-> remote: Compressing objects: 100% (8/8), done.
-> remove: Total 10 (delta 1), reused 10 (delta 1)
-> Unpacking objects: 100% (10/10), done.
+$ git clone https://github.com/SteveKennyUK/the-anvil-metal-pub.git
 ```
 
-Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+7. Press Enter. 
+8. Your local clone will be created.
+
+```
+$ git clone https://github.com/SteveKennyUK/the-anvil-metal-pub.git
+Cloning into 'the-anvil-metal-pub'...
+remote: Enumerating objects: 249, done.
+remote: Counting objects: 100% (249/249), done.
+remote: Compressing objects: 100% (169/169), done.
+remote: Total 249 (delta 114), reused 172 (delta 59), pack-reused 0
+Receiving objects: 100% (249/249), 2.24 MiB | 1.79 MiB/s, done.
+Resolving deltas: 100% (114/114), done.
+
+```
+
+See [GitHub Docs](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories) for more information on the above processes.
 
 ## Credits
 
