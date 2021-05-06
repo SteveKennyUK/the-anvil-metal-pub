@@ -30,13 +30,25 @@ h3 {
 
 /*================================== Special Repeat Styling ==================================*/
 .clear-margin-padding,
-.jumbotron {
+.jumbotron,
+hr {
     margin: 0;
     padding: 0;
 }
 
 .underline {
     text-decoration: underline;
+}
+
+.section-header {
+    font-weight: 500;   
+}
+
+hr {
+    height: 5px;
+    width: 5%;
+    margin: 0 auto;
+    margin-top: 4px;
 }
 
 /*================================== Colours ==================================*/
@@ -79,7 +91,8 @@ h3 {
     color: #f7ad10;
 }
 
-.btn-white {
+.btn-white,
+hr {
     background-color: #fff;
 }
 
@@ -232,10 +245,6 @@ h3 {
 /*================================== Hours section ==================================*/
 .hours {
     height: 750px;
-}
-
-.section-header {
-    font-weight: 500;   
 }
 /*-- credit: W3S for guidance on using box-shadow https://www.w3schools.com/cssref/css3_pr_box-shadow.asp */
 .card {
