@@ -117,6 +117,19 @@ hr,
     padding: 0 1.25rem;
 }
 
+.btn-danger {
+    border-radius: 25px;    
+} 
+
+.modal-footer a,
+.modal-footer button {
+    margin: 0 auto;
+}
+
+.modal-footer {
+    border: none;
+}
+
 /*================================== Alert bar ==================================*/
 .top-alert-bar {
     background-color: #f7ad10;
@@ -149,12 +162,12 @@ hr,
 }
 
     /*--- media query to fit CTA button onto tablet navbar ---*/
-@media only screen and (min-width: 768px) and (max-width: 979px){
+/* @media only screen and (min-width: 768px) and (max-width: 979px){
     .navbar-nav {
         margin-right: 0;
         font-size: 110%;
     }
-}
+} */
 
     /*--- media query to improve 4K navbar visibility ---*/
 @media only screen and (min-width: 2560px) {

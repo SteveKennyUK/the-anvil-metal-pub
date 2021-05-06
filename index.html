@@ -33,7 +33,7 @@
             <div class="row d-none d-md-block">
                 <div class="col-12">
                     <div class="alert alert-primary alert-dismissible top-alert-bar clear-margin-padding" role="alert">
-                        <strong>IRON HEAD are coming to The Anvil! We follow COVID-19 best practice.</strong>
+                        <strong>IRON HEAD are coming to The Anvil!</strong>
                         See the <a href="#" class="alert-link">Events Page</a> for details.
                         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
@@ -52,6 +52,36 @@
             </button>
             <!-- Navbar links -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <!-- Button trigger modal -->
+<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">
+    <strong>COVID-19</strong> 
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">COVID-19</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          The Anvil strictly adheres to COVID-19 best practices. We are following Government advice regarding social distancing.<br>Our covered outdoor area is currently open 12.00-22.00hrs.<br><strong>Bookings are recommended.</strong><br>
+          We thank you for your cooperation.
+        </div>
+        <div class="modal-footer">
+          <a href="#" class="btn btn-primary btn-cta btn-purple">Contact</a>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>          
+        </div>
+      </div>
+    </div>
+  </div>
+
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -78,7 +108,7 @@
                 </ul>
             </div>
             <!-- CTA button -->
-            <div class="d-none d-md-block hvr-grow-shadow">
+            <div class="d-none d-lg-block hvr-grow-shadow">
                 <a href="#" class="btn btn-cta btn-yellow">Subscribe</a>
             </div>
         </nav>

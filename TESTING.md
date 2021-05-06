@@ -69,11 +69,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Resolved Bugs
 ---
 
--   After repositioning and resizing the navbar elements, then setting ```class="d-none d-md-block"```, theCTA button on the right hand side of the navbar would not display on tablet devices. 
+-   After repositioning and resizing the navbar elements, then setting ```class="d-none d-md-block"```, the CTA button on the right hand side of the navbar would not display on tablet devices. 
     
     - I played around with the d-class to see if that would make a difference but the issue was still there if the class was removed entirely. This suggested that the bug may be related to the stylings I had added. 
     - Some research on [Stack Overflow](https://stackoverflow.com/questions/26674303/bootstrap-navbar-not-displaying-correctly-on-tablet) suggested that indeed the measurements used to style the navbar may be the issue. Changing the navbar margins and font size confirmed this theory. Removing the margin and reducing the font size displayed the CTA on tablet devices.
     - However, I did not like what this did to the desktop screen displays. There was an option to remove the CTA from tablets or replace the menu with a toggler, as with mobile devices. I felt that there was room for the menu names and the CTA button on the tablets and it looked better so I set media queries for the tablet sizes to reduce the margin and font size. I then set a media query to increase margin and font size for 4K devices so that the nav items displayed as desired on all device sizes.
+    
+    **UPDATE** - following the decision to abandon the fixed-top navigation bar (see [Unresolved Bugs](#unresolved-bugs)), I felt that there was no need for a 'Subscribe' button on the navbar as there is one on the hero image text, which would be visible on the home page upon entering the site. The initial idea was for the button to always be visible to the user, as part of the fixed navbar. The introduction of a 'COVID-19' information modal button to the navbar would be more useful to the user.
 -  I wanted to arrange the footer bar so that the social media icons would display first in mobile view then move to the right on larger screen sizes. I added ```d-flex``` and ```flex-row-reverse``` to enable this. 
     - The first issue was the columns bunching up on the right rather than spread evenly across the footer. I tried various justify positioning techniques before finally realising it was a fairly simple fix. I had placed each column in one row, rather than placing them in a different row within the container.
     - There was then a second issue. Every word or icon within the columns was displaying in a narrow column rather than flowing horizontally. Dev Tools indicated that I had created flexboxes within flexboxes (with Bootstrap being built on flex) so I removed some flex code I had written and the issue was resolved.
