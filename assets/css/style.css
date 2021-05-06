@@ -296,6 +296,7 @@ h3 {
     font-size: 1.3rem;
     font-weight: 600;
     margin: 0 auto;
+    box-shadow: -15px -15px 3px #36014f inset;
 }
 
 .testim-card {
@@ -313,7 +314,7 @@ h3 {
     margin: 0 auto;
 }
 
-    /*--- move the event hours section to top of the container for tablet devices as it is a longer section and will display better ---*/
+    /*--- move the testim-intro section to sit betweeen testim-left and testim-right on large screen sizes ---*/
     @media only screen and (min-width: 992px) {
         .testim-header {
             order: 1;
