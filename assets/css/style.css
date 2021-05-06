@@ -62,7 +62,8 @@ hr {
 .text-icon-links a,
 .footer,
 .card-header,
-.section-header {
+.section-header,
+.contact {
     color: #fff;
 }
 
@@ -381,4 +382,13 @@ hr,
         .testim-feedback {
             height: 100%;
         }
-    }    
+    }
+/*================================== Contact Page ==================================*/   
+/*-- reduce font-size to align content on medium size screens --*/
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .lead {
+        font-size: 0.8rem;
+    }
+   
+}
+    
