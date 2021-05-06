@@ -116,7 +116,7 @@ hr,
 .alert-dismissible .close {
     padding: 0 1.25rem;
 }
-
+/*--- style COVID-19 modal buttons ---*/
 .btn-danger {
     border-radius: 25px;    
 } 
@@ -331,7 +331,7 @@ hr,
     text-align: center;
     margin: 0 auto;
 }
-
+/*-- Testimonials feedback block styling --*/
 .testim-feedback {
     height: 150px;
 }
