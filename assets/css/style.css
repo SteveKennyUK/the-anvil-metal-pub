@@ -87,16 +87,19 @@ hr {
     background-color: #36013f;
 }
 
-.text-icon-links a:hover {
+.text-icon-links a:hover,
+.testim-feedback-content a i:hover {
     color: #f7ad10;
 }
 
 .btn-white,
-hr {
+hr,
+.testim-feedback {
     background-color: #fff;
 }
 
-.btn-white {
+.btn-white,
+.testim-feedback-content a i {
     color: #36013f;
 }
 
@@ -278,7 +281,8 @@ hr {
 }
 /*================================== Facilities section ==================================*/
 /*-- style container and cards; override box-shadow card colour from 'hours' --*/
-.facilities-container {
+.facilities-container,
+.testim-feedback {
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 10px 10px 15px #36014f;
@@ -289,11 +293,7 @@ hr {
     box-shadow: 10px 10px 3px #000;
 }
 
-@media only screen and (max-width: 768px) {
-    .facilities-container {
-        height: 100%;
-    }
-}
+
 /*================================== Testimonials section ==================================*/
 /*-- style the card to create a floating circular image with text below --*/
 .testim-intro {
@@ -323,6 +323,28 @@ hr {
     margin: 0 auto;
 }
 
+.testim-feedback {
+    height: 150px;
+}
+
+.testim-feedback-hdr {
+    height: 40px;
+}
+
+.testim-feedback-hdr h3,
+.testim {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.testim-feedback-content {
+    height: 110px;
+}
+
+.testim-feedback-content img {
+    width: 30%;
+    height: auto;
+}
     /*--- move the testim-intro section to sit betweeen testim-left and testim-right on large screen sizes ---*/
     @media only screen and (min-width: 992px) {
         .testim-header {
@@ -344,3 +366,10 @@ hr {
        }
       
     }
+
+    @media only screen and (max-width: 768px) {
+        .facilities-container,
+        .testim-feedback {
+            height: 100%;
+        }
+    }    
