@@ -316,7 +316,6 @@ See [GitHub Docs](https://docs.github.com/en/github/creating-cloning-and-archivi
 
 -   All content was written by the developer.
 
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
 
 ### Media
 
@@ -326,6 +325,10 @@ Images were either created by the developer or sourced from third parties. Pleas
 
     - [Facilities image 1](https://github.com/SteveKennyUK/the-anvil-metal-pub/blob/master/assets/images/facilities-image.jpg) by <a href="https://unsplash.com/@mehrad_vosoughi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mehrad Vosoughi</a> on <a href="https://unsplash.com/s/photos/music-pub?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>.
     - [Facilities image 2](https://github.com/SteveKennyUK/the-anvil-metal-pub/blob/master/assets/images/facilities-image-2.jpg) Photo by <a href="https://unsplash.com/@davidhuckphotos?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">David Huck</a> on <a href="https://unsplash.com/s/photos/pool-table?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>.
+    - [Testimonials image 1](https://github.com/SteveKennyUK/the-anvil-metal-pub/blob/master/assets/images/testimonials-image-1.png) by [Memodi44](https://imgbin.com/user/memodi44) on [IMGBIN](https://imgbin.com/png/ADvmTpsQ/iron-maiden-eddie-the-book-of-souls-brave-new-world-heavy-metal-png).
+    - [Testimonials image 2](https://github.com/SteveKennyUK/the-anvil-metal-pub/blob/master/assets/images/testimonials-image-2.png) courtesy of [The Laser](https://www.thelaseronline.com/2020/07/30/corey-taylor-talks-about-recording-his-solo-album-during-a-pandemic/).
+    - [Testimonials image 3](https://github.com/SteveKennyUK/the-anvil-metal-pub/blob/master/assets/images/testimonials-image-3.png) courtesy of [Interscope Records](https://www.interscope.com/) via [Wisconsin Public Radio](https://www.wpr.org/pick-day-marilyn-manson-song-really-frightening).
+    - [Testimonials image 4](https://github.com/SteveKennyUK/the-anvil-metal-pub/blob/master/assets/images/testimonials-image-4.png) courtesy of [Wallpaper Cave](https://wallpapercave.com/jinjer-wallpapers).
   
   
 
@@ -336,3 +339,7 @@ Images were either created by the developer or sourced from third parties. Pleas
 -   My Mentor for continuous helpful feedback.
 
 -   Tutor support at Code Institute for their support.
+
+
+### Notice
+- This site has been created for educational purposes only.
