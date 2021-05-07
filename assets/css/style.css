@@ -250,7 +250,7 @@ hr,
     }
 }
 /*--- increase hours-container height to avoid overflow onto facilities section on mobile devices with wide landscape view ---*/
-@media screen and (orientation:landscape) and (min-device-width: 767.95px) and (max-device-width: 992px) {
+@media screen and (orientation:landscape) and (min-device-width: 525px) and (max-device-width: 992px) {
     .hours-container {
         height: 1250px;
     }  
