@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Metal+Mania&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 /*================================== General Styling ==================================*/
 * {
@@ -11,15 +11,16 @@
 html,
 body {
     width: 100%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 100%;
     font-weight: 400;
     background-color: #000;
     overflow-x: hidden;
 }
 
-h1, h2 {
-    font-family: 'Metal Mania', 'Montserrat', sans-serif;
+h1,
+h2 {
+    font-family: "Metal Mania", "Montserrat", sans-serif;
 }
 
 h1 {
@@ -32,7 +33,7 @@ h3 {
 
 /*================================== Special Repeat Styling ==================================*/
 .clear-margin-padding,
-.jumbotron{
+.jumbotron {
     margin: 0;
     padding: 0;
 }
@@ -46,7 +47,7 @@ h3 {
 }
 
 .section-header {
-    font-weight: 500;   
+    font-weight: 500;
 }
 
 hr {
@@ -58,9 +59,9 @@ hr {
 
 /*================================== Colours ==================================*/
 
-.navbar, 
+.navbar,
 .dropdown-menu {
-    background-color: #000;   
+    background-color: #000;
 }
 
 .dropdown-item,
@@ -70,8 +71,8 @@ hr {
 .card-header,
 .section-header,
 .contact,
-[type=submit],
-[type=reset]:hover {
+[type="submit"],
+[type="reset"]:hover {
     color: #fff;
 }
 
@@ -86,7 +87,7 @@ hr {
 .btn-purple,
 .card-header,
 .btn-white:hover {
-    background-color: #5E2FBC;
+    background-color: #5e2fbc;
 }
 
 .btn-purple:hover,
@@ -130,8 +131,8 @@ hr,
 }
 /*--- style COVID-19 modal buttons ---*/
 .btn-danger {
-    border-radius: 25px;    
-} 
+    border-radius: 25px;
+}
 
 .modal-footer a,
 .modal-footer button {
@@ -142,8 +143,8 @@ hr,
     border: none;
 }
 /*-- Add white border to form submission buttons to stand out better against black background --*/
-[type=submit]:hover,
-[type=reset]:hover {
+[type="submit"]:hover,
+[type="reset"]:hover {
     border: 1px solid #fff;
 }
 
@@ -159,7 +160,7 @@ hr,
 
 /*================================== Navbar ==================================*/
 /*--- navbar logo ---*/
-.navbar-brand img{
+.navbar-brand img {
     height: 50px;
     width: 50px;
     border-style: solid;
@@ -177,28 +178,28 @@ hr,
     color: #f5f5f5;
     padding: 18px;
 }
-    /*--- media query to improve 4K navbar visibility ---*/
+/*--- media query to improve 4K navbar visibility ---*/
 @media only screen and (min-width: 2560px) {
     .navbar-nav {
         margin-right: 300px;
         font-size: 150%;
     }
 }
-    /*--- active link ---*/
+/*--- active link ---*/
 .navbar-dark .navbar-nav .active {
     color: #f7ad10;
     font-weight: 700;
     border-style: solid;
     border-width: 0 0 2px 0;
     border-color: #f9f871;
-  }
-    /*--- nav links hover float shadow effect - credit for hover effects: https://ianlunn.github.io/Hover/ ---*/
-.hvr-float-shadow:before {    
+}
+/*--- nav links hover float shadow effect - credit for hover effects: https://ianlunn.github.io/Hover/ ---*/
+.hvr-float-shadow:before {
     background: #f5f5f5;
     height: 3px;
     border-radius: 25%;
 }
-    /*--- remove 'hamburger menu' border ---*/
+/*--- remove 'hamburger menu' border ---*/
 .navbar .navbar-toggler {
     border: 0;
 }
@@ -210,7 +211,7 @@ hr,
     height: 80vh;
     background-color: #000;
     position: relative;
-    }
+}
 /*--- opacity layer over hero image ---*/
 .hero-overlay {
     height: 100%;
@@ -228,14 +229,14 @@ hr,
     background-color: transparent;
 }
 /*--- style logo image on hero section ---*/
-.hero-text-image img{
+.hero-text-image img {
     height: 150px;
     width: 150px;
     border-style: solid;
     border-color: #fff;
     border-width: 2px;
-    border-radius: 50%; 
-    margin-bottom: 15px;   
+    border-radius: 50%;
+    margin-bottom: 15px;
 }
 /*--- social media links on hero section ---*/
 .text-icon-links a {
@@ -243,18 +244,20 @@ hr,
 }
 /*--- increase hero-container height to avoid hero overflow onto hours section on mobile devices ---*/
 @media only screen and (max-width: 991px) {
-    .hero-container, .hero-overlay {
+    .hero-container,
+    .hero-overlay {
         height: 150vh;
     }
 }
 /*--- increase hero container height to avoid hero section overflow onto hours section on mobile devices in landscape view ---*/
-@media screen and (orientation:landscape) and (min-device-width: 525px) and (max-device-width: 767.95px) {
-    .hero-container, .hero-overlay {
+@media screen and (orientation: landscape) and (min-device-width: 525px) and (max-device-width: 767.95px) {
+    .hero-container,
+    .hero-overlay {
         height: 175vh;
-    } 
+    }
 }
 /*--- remove hero-text-cta paragraph from display on landscape screens to avoid overflow (see Bugs in README) ---*/
-@media screen and (orientation:landscape) and (max-width: 991px) {
+@media screen and (orientation: landscape) and (max-width: 991px) {
     .hero-text-cta p {
         display: none;
     }
@@ -262,13 +265,13 @@ hr,
     .hero-text-cta a {
         margin-top: 10px;
     }
-}    
+}
 
 /*================================== Footer ==================================*/
 .footer {
     height: 100%;
-    width: 100%; 
-    text-align: center;   
+    width: 100%;
+    text-align: center;
 }
 
 .footer .row .footer-item ul {
@@ -282,15 +285,15 @@ hr,
 }
 
 @media only screen and (max-width: 768px) {
- .footer .row .footer-item h3 {
-     padding: 10%;
-     margin: 8% 0;
-     font-size: 150%;
-     font-weight: 700;
- }
- .footer .row .footer-item ul {
-     font-size: 150%;
-}
+    .footer .row .footer-item h3 {
+        padding: 10%;
+        margin: 8% 0;
+        font-size: 150%;
+        font-weight: 700;
+    }
+    .footer .row .footer-item ul {
+        font-size: 150%;
+    }
 }
 /*================================== Hours section ==================================*/
 .hours {
@@ -300,7 +303,7 @@ hr,
 .card {
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 10px 10px 3px #5E2FBC;
+    box-shadow: 10px 10px 3px #5e2fbc;
 }
 
 .card-text {
@@ -311,13 +314,13 @@ hr,
     border: none;
 }
 /*-- media queries --*/
-    /*--- make screen height responsive to avoid overflow on mobile devices ---*/
+/*--- make screen height responsive to avoid overflow on mobile devices ---*/
 @media only screen and (max-width: 768px) {
     .hours {
         height: 100%;
     }
 }
-    /*--- move the event hours section to top of the container for tablet devices as it is a longer section and will display better ---*/
+/*--- move the event hours section to top of the container for tablet devices as it is a longer section and will display better ---*/
 @media only screen and (min-width: 768px) and (max-width: 992px) {
     .event-hours {
         order: -1;
@@ -397,72 +400,68 @@ hr,
 }
 
 .testim-header {
-    margin-bottom: 3%; 
+    margin-bottom: 3%;
 }
 
-    /*--- move the testim-intro section to sit betweeen testim-left and testim-right on large screen sizes ---*/
-    @media only screen and (min-width: 992px) {
-        .testim-header {
-            order: 1;
-        }
-        .testim-left {
-            order: 2;                        
-        }
-        .testim-intro {
-            order: 3;
-            margin-top: 25%;
-            height: 175px;
-        }
-        .testim-right {
-            order: 4;
-        }
-       .testimonial-container {
-           justify-content: space-between;
-       }
-      
+/*--- move the testim-intro section to sit betweeen testim-left and testim-right on large screen sizes ---*/
+@media only screen and (min-width: 992px) {
+    .testim-header {
+        order: 1;
     }
+    .testim-left {
+        order: 2;
+    }
+    .testim-intro {
+        order: 3;
+        margin-top: 25%;
+        height: 175px;
+    }
+    .testim-right {
+        order: 4;
+    }
+    .testimonial-container {
+        justify-content: space-between;
+    }
+}
 
-    @media only screen and (max-width: 768px) {
-        .facilities-container,
-        .testim-feedback {
-            height: 100%;
-        }
+@media only screen and (max-width: 768px) {
+    .facilities-container,
+    .testim-feedback {
+        height: 100%;
     }
-/*================================== Contact Page ==================================*/   
+}
+/*================================== Contact Page ==================================*/
 /*-- reduce font-size to align content on medium size screens --*/
 @media only screen and (min-width: 768px) and (max-width: 992px) {
     .lead {
         font-size: 0.8rem;
-    }   
+    }
 }
-  
-/*================================== Floating scroll to top button ==================================*/   
+
+/*================================== Floating scroll to top button ==================================*/
 /*-- IMPORTANT Credit: Code provided by https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top and slightly modified.
-Some JavaScript is used but I felt that this adds immensely to the user experience --*/ 
+Some JavaScript is used but I felt that this adds immensely to the user experience --*/
 @media only screen and (min-width: 992px) {
-#myBtn {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    z-index: 99;
-    font-size: 18px;
-    border: none;
-    outline: none;
-    background-color: #5E2FBC;
-    color: white;
-    cursor: pointer;
-    border-radius: 4px;
-    height: 30px;
-    width: 30px;
-  }
-  
-  #myBtn:hover {
-    color: #5E2FBC;  
-    background-color: #fff;
-    border: 2px solid #5e2fbc
-  }
+    #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        background-color: #5e2fbc;
+        color: white;
+        cursor: pointer;
+        border-radius: 4px;
+        height: 30px;
+        width: 30px;
+    }
 
-}  
-
-  
+    #myBtn:hover {
+        color: #5e2fbc;
+        background-color: #fff;
+        border: 2px solid #5e2fbc;
+    }
+}
