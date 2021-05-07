@@ -237,12 +237,25 @@ hr,
 .text-icon-links a {
     padding: 10px;
 }
-/*--- increase screen height to avoid overflow on mobile devices ---*/
+/*--- increase hero-container height to avoid hero overflow onto hours section on mobile devices ---*/
 @media only screen and (max-width: 991px) {
     .hero-container, .hero-overlay {
         height: 150vh;
     }
 }
+/*--- increase hero container height to avoid hero section overflow onto hours section on mobile devices in landscape view ---*/
+@media screen and (orientation:landscape) and (min-device-width: 525px) and (max-device-width: 767.95px) {
+    .hero-container, .hero-overlay {
+        height: 200vh;
+    }
+}
+/*--- increase hours-container height to avoid overflow onto facilities section on mobile devices with wide landscape view ---*/
+@media screen and (orientation:landscape) and (min-device-width: 767.95px) and (max-device-width: 992px) {
+    .hours-container {
+        height: 1250px;
+    }
+}
+    
 
 /*================================== Footer ==================================*/
 .footer {
@@ -313,11 +326,15 @@ hr,
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 10px 10px 15px #36014f;
-    height: 750px;
+    height: 100%;
 }
 
 .facilities-list .card {
     box-shadow: 10px 10px 3px #000;
+}
+
+.facilities-header {
+    margin: 5% 0;
 }
 
 /*================================== Testimonials section ==================================*/
@@ -371,6 +388,11 @@ hr,
     width: 30%;
     height: auto;
 }
+
+.testim-header {
+    margin-bottom: 3%; 
+}
+
     /*--- move the testim-intro section to sit betweeen testim-left and testim-right on large screen sizes ---*/
     @media only screen and (min-width: 992px) {
         .testim-header {
