@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 /*================================== General Styling ==================================*/
-html {
-    overflow-x: hidden;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -12,12 +8,14 @@ html {
     box-sizing: border-box;
 }
 
+html,
 body {
     width: 100%;
     font-family: 'Montserrat', sans-serif;
     font-size: 100%;
     font-weight: 400;
     background-color: #000;
+    overflow-x: hidden;
 }
 
 h1, h2 {
@@ -236,7 +234,7 @@ hr,
     padding: 10px;
 }
 /*--- increase screen height to avoid overflow on mobile devices ---*/
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 991px) {
     .hero-container, .hero-overlay {
         height: 150vh;
     }
@@ -249,11 +247,15 @@ hr,
     text-align: center;   
 }
  .footer .row .footer-item h3 {
-     padding: 10px;
+     padding: 10%;
+     margin: 8% 0;
+     font-size: 150%;
+     font-weight: 700;
  }
 
  .footer .row .footer-item ul {
     color: #adb5bd;
+    font-size: 150%;
 }
 
 /*================================== Hours section ==================================*/
@@ -419,3 +421,9 @@ Some JavaScript is used but I felt that this adds immensely to the user experien
   }
 
 }  
+
+/* @media only screen and (min-width: 768px) { */
+    .section-container {
+        margin-top: 5%;
+    }
+/* } */
