@@ -253,12 +253,8 @@ hr,
         height: 175vh;
     } 
 }
-
-/*--- increase hours-container height to avoid overflow onto facilities section on mobile devices with wide landscape view ---*/
-@media screen and (orientation:landscape) {
-    /* .hours-container {
-        height: 1250px;
-    }   */
+/*--- remove hero-text-cta paragraph from display on landscape screens to avoid overflow (see Bugs in README) ---*/
+@media screen and (orientation:landscape) and (max-width: 991px) {
     .hero-text-cta p {
         display: none;
     }
