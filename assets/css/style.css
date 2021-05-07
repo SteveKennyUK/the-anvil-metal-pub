@@ -253,12 +253,8 @@ hr,
 @media screen and (orientation:landscape) and (min-device-width: 767.95px) and (max-device-width: 992px) {
     .hours-container {
         height: 1250px;
-    }
-    .hero-container, .hero-overlay {
-        height: 150vh;
-    }    
-}
-    
+    }  
+}    
 
 /*================================== Footer ==================================*/
 .footer {
