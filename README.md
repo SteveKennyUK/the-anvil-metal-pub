@@ -185,10 +185,13 @@ The layout and content of the site has been designed with the User Experience at
     -   [Contact](https://github.com/SteveKennyUK/the-anvil-metal-pub/blob/master/assets/wireframes/the-anvil-contact-screen-wireframe.pdf) Wireframe
 
 ## Features
-
+---
 -   Responsive on all device sizes
 
 -   Interactive elements
+
+### Future Features
+- I was looking at changing the form submit button text from 'Send' to 'Sent' to inform the user that their input had been successfully processed. However, it appears that this would require JavaScript so is beyond my current skill level. It was also pointed out to me by a fellow Slack member that the form would refresh once submitted so this would not be the most useful feedback tool to the user. The button currently opens the Code Institute successful submission page. In future, a successful submission page or pop-up personalised to the site would be preferred.
 
 ## Technologies Used
 ---

@@ -67,7 +67,9 @@ hr {
 .footer,
 .card-header,
 .section-header,
-.contact {
+.contact,
+[type=submit],
+[type=reset]:hover {
     color: #fff;
 }
 
@@ -107,7 +109,6 @@ hr,
     color: #36013f;
 }
 
-
 /*================================== Buttons ==================================*/
 /*--- CTA button ---*/
 .btn-cta {
@@ -133,6 +134,11 @@ hr,
 
 .modal-footer {
     border: none;
+}
+/*-- Add white border to form submission buttons to stand out better against black background --*/
+[type=submit]:hover,
+[type=reset]:hover {
+    border: 1px solid #fff;
 }
 
 /*================================== Alert bar ==================================*/
@@ -165,15 +171,6 @@ hr,
     color: #f5f5f5;
     padding: 18px;
 }
-
-    /*--- media query to fit CTA button onto tablet navbar ---*/
-/* @media only screen and (min-width: 768px) and (max-width: 979px){
-    .navbar-nav {
-        margin-right: 0;
-        font-size: 110%;
-    }
-} */
-
     /*--- media query to improve 4K navbar visibility ---*/
 @media only screen and (min-width: 2560px) {
     .navbar-nav {
@@ -307,7 +304,6 @@ hr,
     box-shadow: 10px 10px 3px #000;
 }
 
-
 /*================================== Testimonials section ==================================*/
 /*-- style the card to create a floating circular image with text below --*/
 .testim-intro {
@@ -392,7 +388,6 @@ hr,
 @media only screen and (min-width: 768px) and (max-width: 992px) {
     .lead {
         font-size: 0.8rem;
-    }
-   
+    }   
 }
   
