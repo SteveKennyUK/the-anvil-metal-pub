@@ -41,6 +41,10 @@ h3 {
     text-decoration: underline;
 }
 
+.section-container {
+    margin-top: 7.5%;
+}
+
 .section-header {
     font-weight: 500;   
 }
@@ -246,18 +250,28 @@ hr,
     width: 100%; 
     text-align: center;   
 }
+
+.footer .row .footer-item ul {
+    color: #adb5bd;
+}
+
+.footer .row .footer-item h3 {
+    padding: 5px;
+    margin: 20px 0;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 768px) {
  .footer .row .footer-item h3 {
      padding: 10%;
      margin: 8% 0;
      font-size: 150%;
      font-weight: 700;
  }
-
  .footer .row .footer-item ul {
-    color: #adb5bd;
-    font-size: 150%;
+     font-size: 150%;
 }
-
+}
 /*================================== Hours section ==================================*/
 .hours {
     height: 750px;
@@ -422,8 +436,4 @@ Some JavaScript is used but I felt that this adds immensely to the user experien
 
 }  
 
-/* @media only screen and (min-width: 768px) { */
-    .section-container {
-        margin-top: 5%;
-    }
-/* } */
+  
