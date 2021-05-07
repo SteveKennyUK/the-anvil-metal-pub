@@ -111,6 +111,10 @@ hr,
     color: #36013f;
 }
 
+.testim-feedback-content h4 a {
+    color: #000;
+}
+
 /*================================== Buttons ==================================*/
 /*--- CTA button ---*/
 .btn-cta {
