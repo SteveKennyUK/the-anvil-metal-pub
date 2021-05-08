@@ -217,6 +217,8 @@ The layout and content of the site has been designed with the User Experience at
 
     -   [Contact](https://github.com/SteveKennyUK/the-anvil-metal-pub/blob/master/assets/wireframes/the-anvil-contact-screen-wireframe.pdf) Wireframe
 
+**EDIT** - The 'Drink' and 'Events' pages proved to be beyond the Scope for the first stage of development so have been omitted from the final version.    
+
 ## Features
 ---
 ### Existing Features
