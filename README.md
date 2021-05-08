@@ -6,7 +6,7 @@ The aim of the project is to showcase my understanding of the initial modules of
 
 This project is concerned with building a website for a fictitious pub called "The Anvil". This pub has a heavy metal and rock music theme, including hosting live band performances. The aim of the website is to firstly promote the pub on behalf of the owners by providing a user-friendly and informative website. Secondly, the website needs to provide valuable and easily digestible information to potential and existing customers.
 
-[View the live project here.](https://codeinstitute.net)
+[View the live project here.](https://stevekennyuk.github.io/the-anvil-metal-pub/)
 
 <h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
 
