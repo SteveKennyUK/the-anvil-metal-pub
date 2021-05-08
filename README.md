@@ -8,7 +8,7 @@ This project is concerned with building a website for a fictitious pub called "T
 
 [View the live project here.](https://stevekennyuk.github.io/the-anvil-metal-pub/)
 
-<h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
+![Mock-up](https://github.com/SteveKennyUK/the-anvil-metal-pub/blob/master/assets/images/mock-up.JPG)
 
 ## User Experience (UX)
 ---
