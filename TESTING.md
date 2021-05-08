@@ -6,9 +6,20 @@ All pages were tested for validation to ensure there were no HTML syntax errors 
 [One error](https://github.com/SteveKennyUK/the-anvil-metal-pub/blob/master/assets/images/testing/html-val-2.JPG) was returned. This stated that a % should not be used to set the width of an iframe. This actually gave me the best result, particularly when it came to responsiveness. However, I changed the width to a set number as requested.
 Both the [home](https://github.com/SteveKennyUK/the-anvil-metal-pub/blob/master/assets/images/testing/html-val-1.JPG) and [contact](https://github.com/SteveKennyUK/the-anvil-metal-pub/blob/master/assets/images/testing/html-val-3.JPG) pages now show no errors.
 
+---
 ## [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 All pages were tested for validation to ensure there were no CSS syntax errors in the project.
+
 The [test results](https://github.com/SteveKennyUK/the-anvil-metal-pub/blob/master/assets/images/testing/css-valid.JPG) only highlighted two errors from the Bootstrap library so the project syntax is good.
+
+---
+## [WAVE](https://wave.webaim.org/)
+The Web Accessibility Evaluation Tool was used to check the accessibility standards of the site. 
+
+## [Google Chrome Developers Tools](https://developer.chrome.com/docs/devtools/)
+Google Dev Tools was used extensively during project development to help identify any syntax issues
+
+
 
 ### Testing User Stories from User Experience (UX) Section
 
