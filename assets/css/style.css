@@ -251,7 +251,7 @@ hr,
     }
 }
 /*--- increase hero container height to avoid hero section overflow onto hours section on mobile devices in landscape view ---*/
-@media screen and (orientation: landscape) and (min-device-width: 525px) and (max-device-width: 767.95px) {
+@media screen and (orientation: landscape) and (min-width: 525px) and (max-width: 767.95px) {
     .hero-container,
     .hero-overlay {
         height: 175vh;
@@ -459,8 +459,7 @@ hr,
 }
 
 /*================================== Floating scroll to top button ==================================*/
-/*-- IMPORTANT Credit: Code provided by https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top and slightly modified.
-Some JavaScript is used but I felt that this adds immensely to the user experience --*/
+/*-- Some JavaScript is used but I felt that this adds immensely to the user experience --*/
 @media only screen and (min-width: 992px) {
     #myBtn {
         display: none;
