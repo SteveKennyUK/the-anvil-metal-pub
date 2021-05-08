@@ -71,12 +71,12 @@ Opportunity | Importance | Viability
 ----------- | ---------- | ---------
 Clear and intuitive navigational links | 5 | 5
 Social media links | 5 | 5
-Live music and event page | 5 | 5
-Food and drink page | 4 | 5
+Live music and event page | 4 | 4
+Food and drink page | 4 | 4
 Display opening times, facilities and contact details| 5 | 5
-Contact form for users | 4 | 5
-Feedback form for users and owners | 4 | 5
-User reviews | 4 | 5
+Contact form for users | 5 | 5
+Feedback form for users and owners | 5 | 5
+User reviews | 5 | 5
 Responsive for all device sizes | 5 | 5
 Showcase deals and promotions | 4 | 4
 Create an online blog | 3 | 1
@@ -87,7 +87,9 @@ Shop page to sell merchandise | 2 | 1
 The higher feasilbility elements will be incorporated in this first stage of development. 
 
 #### Content Scope
-As seen on the site logo, the motto is "Forging Great Beer and Music". It is therefore important to dedicate resources towards highlighting these two elements in the first stage of the site i.e. showcasing the beer and the music which is on offer, as this will be expected by users.
+As can be seen in the table above, the primary purpose of the site will be to promote factual information about the pub and what it has to offer the user. Users would first be looking at opening times, facilities, location, other user feedback and ways to contact the venue.
+
+As seen on the site logo, the motto is "Forging Great Beer and Music". Once the initial structure is in place, the next step would be to dedicate resources towards highlighting these two elements i.e. showcasing the beer and the music which is on offer.
 
 It is felt that most users of the site will be visiting to look for particular information. The site is for a public house in a fixed location which caters in the most part for fans of a specific music genre. Visitors to the site, be they first time, returning or frequent, will therefore most likely have an idea of the general purpose of the site before visiting. 
 
@@ -102,10 +104,10 @@ The structural design of the site aims to make the user interaction with the sit
 The principles of Interactive Design (IxD) promote consistency, predictability, visibility, learnability and feedback as central to the above aim. The structure of this site aims to follow these principles.
 
 -   #### Page Structure
-    - Drawing on personal experience and further research of websites for similar organisations, it is felt that a multiple page site would suit best. This is consistent with a user's previous experiences and the predictability will make them more comfortable with the site.
+    - Drawing on personal experience and further research of websites for similar organisations, it is felt that a multiple page site would suit best, with a separate Contact page. This is consistent with a user's previous experiences and the predictability will make them more comfortable with the site.
     - The 'Home' page will immediately address some of the user goals, with clear directions to desired content through navigation links, calls to action and meaningful images. These are again consistent with previous user experiences.
-    - Some user goals can be addressed in small sections on the 'Home' page, such as venue facilities. Links to these sections will be grouped under an 'About' navigation link, with the individual sections appearing as dropdown links.
-    - The beer and the music are the main selling points for the site. These therefore warrant their own pages. These particular sections of similar websites are usually big enough and important enough to warrant their own page so again this is consistent and predictable. 
+    - The main user goals can be addressed in sections on the 'Home' page, such as venue facilities. Links to these sections will be grouped under an 'About' navigation link, with the individual sections appearing as dropdown links.
+    - The beer and the music are the main selling points for the site. These would therefore warrant their own pages. These particular sections of similar websites are usually big enough to warrant their own page so again this is consistent and predictable. 
     - A separate 'Contact' page is also expected. This allows for a contact form which also provides feedback and sign up opportunities to be included alongside direct contact details, location information (including a map) and opening hours. Including these on the 'Home' page or as a pop-up modal could lead to information overload so a separate page is preferred.
     - Each page will have the same header and footer. This consistency is visually pleasing to the user and they also quickly learn how these elements act on each page, leading to a better user experience.
     - Time permitting, it is the intention to create a separate 404 error page in the event of a broken link or server error. This feedback adds reassurance to the user and provides them with clear instructions on how to return to the site.
