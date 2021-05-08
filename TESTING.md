@@ -16,8 +16,23 @@ The [test results](https://github.com/SteveKennyUK/the-anvil-metal-pub/blob/mast
 ## [WAVE](https://wave.webaim.org/)
 The Web Accessibility Evaluation Tool was used to check the accessibility standards of the site. 
 
+The site scored very well, with the [home page](https://github.com/SteveKennyUK/the-anvil-metal-pub/blob/master/assets/images/testing/wave-1.JPG) scoring 0 errors and contrast errors. 
+
+The [contact page](https://github.com/SteveKennyUK/the-anvil-metal-pub/blob/master/assets/images/testing/wave-2.JPG) initially scored 4 errors, relating to labelling of form fields. Three of these had ```sr-only``` classes added. However, the 'last name' field moved out of position when the ```sr-only``` class was added so that one error alone remains.
+
+---
 ## [Google Chrome Developers Tools](https://developer.chrome.com/docs/devtools/)
-Google Dev Tools was used extensively during project development to help identify any syntax issues
+- Google Dev Tools was used extensively during project development to help identify and solve any syntax issues.
+- The Dev Tools [Lighthouse tool](https://developers.google.com/web/tools/lighthouse) is useful to check the performance quality of the site.
+    - **Desktop** The desktop performance comes up with a high performance score of 98%. Accessibility is 98%, Best Practices 100% and SEO 100%. See [link](https://github.com/SteveKennyUK/the-anvil-metal-pub/blob/master/assets/images/testing/lighthouse-1.pdf) for a copy of the report.
+    - **Mobile** The mobile performance originally came in at 78%, prinicipally due to the image sizes, although they had been compressed. Images were compressed further and the score is now 83%. Other scores remain high, with Accessibilty 99%, Best Practices 100% and SEO 100%. See [link](https://github.com/SteveKennyUK/the-anvil-metal-pub/blob/master/assets/images/testing/lighthouse-2.pdf) for a copy of the report.
+- Responsiveness of different screen sizes was continually checked during the development process to ensure that the site rendered as well as possible of differing screen sizes and orientations. Although helpful, this is not foolproof so further responsiveness testing was required.
+
+---
+## Responsiveness Testing
+-   [Responsinator](https://www.responsinator.com/) was used to test the completed project on different devices. This highlighted some issues which were not apparent on Google Dev Tools, mostly involving landscape viewports. These were addressed and all devices are rendering well - please see [link](https://www.responsinator.com/?url=https%3A%2F%2Fstevekennyuk.github.io%2Fthe-anvil-metal-pub%2Findex.html) for results.
+- In addition to automated tests, using real devices is desirable. Thanks to friends and family, I was able to test the site on various devices, including Samsung Galaxy S8, Samsung Galaxy S9, various iPhones, iPads, Samsung Galaxy Tabs, Asus Zenbook and Lenovo ThinkPad. Results were very positive. The only issue was with a narrow and long screen on a Galaxy Tab, where some elements were almost overlapping. Having already spent a long time using media queries to try to resolve landscape issues on smaller devices, I feel that this would be best looked at in the future. There could be a lot of rewriting to try to accommodate an extremely small number of devices. Although ideally all devices should be accommodated, this may not always be an efficient use of resources.
+
 
 
 
