@@ -113,12 +113,12 @@ The principles of Interactive Design (IxD) promote consistency, predictability, 
     - Time permitting, it is the intention to create a separate 404 error page in the event of a broken link or server error. This feedback adds reassurance to the user and provides them with clear instructions on how to return to the site.
 
 -   #### Visibility
-    - The location and purpose of elements should be clear to users. Ideally, a scroll down button to show users that there is content further down the page would be used. However, this involves the use of JavaScript, which is currently beyond the scope of the developer. Instead, there will be partial overlay of elements on the screens to hint to the user that there is more content below.
+    - The location and purpose of elements should be clear to users. Ideally, a scroll down button to show users that there is content further down the page would be used. However, this involves the use of JavaScript, which is currently beyond the scope of the developer. Instead, where feasible, there will be partial overlay of elements on the screens to hint to the user that there is more content below.
     - Dropdown menus will have an arrow to indicate that there are further options available. This is a common practice to make elements more visible so should be predictable to the user. If not, the consistent use of this practice will help the user to learn what such arrows mean and be comfortable navigating the pages.
 
 -   #### Navigation
-    - The site navigation will again be consistent and predictable by following the convention of the site logo on the top left with a horizontal navigation bar to the right of the logo. There will also be a 'Sign Up' button on the top right hand side. As there is not a large number of pages to navigate through, this is the most appropriate method. Only the 'About' link requires a dropdown so the user will only need two clicks at most to reach their destination. Should the site evolve in the future, a more appropriate navigation system could be considered. 
-    - It is felt that a sticky navigation bar will provide the best user experience. As all navigation links are available on the navigation bar, this will enable the user to move around without having to scroll up each time.
+    - The site navigation will again be consistent and predictable by following the convention of the site logo on the top left with a horizontal navigation bar to the right of the logo. There will also be a 'Subscribe' button on the top right hand side. As there is not a large number of pages to navigate through, this is the most appropriate method. Only the 'About' link requires a dropdown so the user will only need two clicks at most to reach their destination. Should the site evolve in the future, a more appropriate navigation system could be considered. 
+    - It is felt that a fixed navigation bar will provide the best user experience. As all navigation links are available on the navigation bar, this will enable the user to move around without having to scroll up each time.
     - The navigation bar will be responsive and will use a hamburger menu for smaller devices. This is consistent and predictable with most sites on mobile devices. The menu will then cover the page when activated to maximise visibility of the options.
 
 -   #### Buttons and Links
@@ -311,11 +311,13 @@ See [GitHub Docs](https://docs.github.com/en/github/creating-cloning-and-archivi
 
 ### Code
 
--   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
+-   [Code Institute](https://stackoverflow.com) tutorials provided helpful guidance in creating the code for this project, including the hero image.
 
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+-   [Bootstrap 4.6:](https://getbootstrap.com/docs/4.6/getting-started/introduction/): Bootstrap Library was used throughout the project, mainly to make the site responsive using the Bootstrap Grid System.
 
 -   Code for the floating scroll to top button was provided by [W3Schools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top) and slightly modified by the developer to suit the site. Although some JavaScript was required, it was felt that this added much to the user experience.
+
+- Many helpful hints and guidance were provided by posts by other developers on [Stack Overflow](https://stackoverflow.com/) - although no code was copied directly from these posts.
 
 ### Content
 
@@ -342,9 +344,9 @@ Images were either created by the developer or sourced from third parties. Pleas
 
 ### Acknowledgements
 
--   My Mentor for continuous helpful feedback.
+-   My Mentor Antonio Rodriguez for his advice and feedback.
 
--   Tutor support at Code Institute for their support.
+-   Fellow Code Institute students on [Slack](https://slack.com/intl/en-gb/) were invaluable for their guidance when I ran into issues.
 
 
 ### Notice
