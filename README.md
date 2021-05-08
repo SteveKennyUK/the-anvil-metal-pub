@@ -380,6 +380,9 @@ Images were either created by the developer or sourced from third parties. Pleas
 
 -   Fellow Code Institute students, tutors and mentors on [Slack](https://slack.com/intl/en-gb/) were invaluable for their guidance when I ran into issues, Anthony O'Brien and Alexander Grib especially.
 
+- The following websites provided me with inspiration and ideas:
+[The Crobar](https://www.crobar.co.uk/); [HOWL Bar](https://www.howlbar.com/); [The Leadmill](https://leadmill.co.uk/).
+
 
 ### Notice
 - This site has been created for educational purposes only.
