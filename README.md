@@ -6,10 +6,41 @@ The aim of the project is to showcase my understanding of the initial modules of
 
 This project is concerned with building a website for a fictitious pub called "The Anvil". This pub has a heavy metal and rock music theme, including hosting live band performances. The aim of the website is to firstly promote the pub on behalf of the owners by providing a user-friendly and informative website. Secondly, the website needs to provide valuable and easily digestible information to potential and existing customers.
 
-[View the live project here.](https://stevekennyuk.github.io/the-anvil-metal-pub/)
+## [View the live project here.](https://stevekennyuk.github.io/the-anvil-metal-pub/)
 
 ![Mock-up](https://github.com/SteveKennyUK/the-anvil-metal-pub/blob/master/assets/images/mock-up.JPG)
 
+# Table of contents 
+
+- [UX](#ux)    
+  - [Project Strategy](#project-strategy) 
+    - [Business Goals](#business-goals)
+    - [User Goals (general)](#user-goals-(general))  
+    - [User Stories (customer users)](#user-stories-(customer-users)) 
+  - [Project Scope](#project-scope)
+    - [Strategy Trade-off](#strategy-trade-offs)  
+    - [Content Scope](#content-scope)  
+  - [Project Structure](#project-structure)
+    - [Page Structure](#page-structure)   
+    - [Visibility](#visibility)
+    - [Navigation](#navigation) 
+    - [Buttons and Links](#buttons-and-links)
+    - [Iconography](#iconography)
+  - [Project Design](#project-design)  
+    - [General Layout](#general-layout)
+    - [Colour Scheme](#colour-scheme)
+    - [Typography](#typography)  
+    - [Imagery](#imagery)
+  - [Wireframes](#wireframes)    
+
+- [Features](#features)    
+  - [Existing Features](#existing-features) 
+  - [Future Features](#future-features)   
+  
+- [Technologies Used](#technologies-used) 
+- [Testing](#testing)         
+- [Deployment](#deployment)     
+- [Credits](#credits)    
 ## User Experience (UX)
 ---
 This website will follow the principles of User Centred Design (UCD), which will focus on placing users at the centre of the design and development process.
@@ -188,6 +219,7 @@ The layout and content of the site has been designed with the User Experience at
 
 ## Features
 ---
+### Existing Features
 -   Responsive on all device sizes
 
 -   Interactive elements
@@ -346,7 +378,7 @@ Images were either created by the developer or sourced from third parties. Pleas
 
 -   My Mentor Antonio Rodriguez for his advice and feedback.
 
--   Fellow Code Institute students on [Slack](https://slack.com/intl/en-gb/) were invaluable for their guidance when I ran into issues.
+-   Fellow Code Institute students, tutors and mentors on [Slack](https://slack.com/intl/en-gb/) were invaluable for their guidance when I ran into issues, Anthony O'Brien and Alexander Grib especially.
 
 
 ### Notice
