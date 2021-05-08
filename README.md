@@ -222,12 +222,28 @@ The layout and content of the site has been designed with the User Experience at
 ## Features
 ---
 ### Existing Features
--   Responsive on all device sizes
-
--   Interactive elements
+-   The site currently consists of two pages. The Home page also houses three subsections. Each of these subsections represents a core element of the business which most users would be looking for when first visiting the site. These are the Opening Hours, Facilities and Testimonials. The other element which users would be looking for first is contact information. The Contact page has more impact as a standalone page so will have the second page alone.
+- Both pages have the same navigation bar and footer to maintain consistency. There is also an alert banner at the top of the page. The alert banner messages will differ on each page though, in keeping with the desired impact of the banner keeping things fresh and relevant.  
+- Another feature intended to show that the site is current and relevant is the 'COVID-19' alert button at the top-left of the navigation bar. The red colour stands out from the rest of the page and draws attention. When clicked, a modal opens which displays the site's current operations during the pandemic. This is therefore also informative and reassuring to the user.
+- The navigation bar also has the company logo as a clickable 'Home' button. This reinforces the site's image and makes it more recognisable to the user. Similarly, a favicon has been added to the open page tab. This is expected and helps the user to identify the site amongst several open sites. This brand reinforcement is important for building familiarity and trust.
+- The navigation bar is positioned in an expected position at the head of the page. The navigation links stand out and make their purpose clear. The active page link is brighter, bolder and has a yellow bar beneath, contrasting nicely with the black background. Users will feel comfortable knowing where they are on the site - particularly if they arrive on the site at a location other than the head of the Home page. As the user hovers over the other links, they move up and a white bar appears beneath. This makes it clear that clicking on these links will take them to a location related to the unambiguous wording used. 
+- Finally, there is a 'Subscribe' call to action button on the navigation bar. Again, the yellow sits nicely and clearly on the black background. When the user hovers over the button, it turns a darker colour and grows in size. This is encouraging the user to click and in so doing, they will navigate to the contact form section, which is useful for user and owner alike.
+- The main focus of the Home page is the striking hero image. The image projects a lively, fun and energetic vibe. A crowd of people enjoying live music, with a bar to the side. Users will have a very good idea what the site is about immediately. Reinforcing this is the cover over the image. Again the logo plus a clear statement of who this is and what they do. Now that the user is intrigued, they can explore further with social media buttons, using recognisable icons which have a greater impact than words. The finishing touch is to invite the user to join the mailing list, with mention of promotions and prizes. If the user thinks that there is something in it for them, they will be more receptive.
+- Dependent on the screen size, there is a small overlap of background colour black from the section below, encouraging the user to scroll down. When they do, they are met with a visually impactful contrast of colours. The black and purple are a strong look and resonate with the music genre associated with the site. These colours are also accessible, with white text.
+- The section headers are clear as to their purpose, reinforced by an appropriate icon. The first piece of information is deliberate in its positioning. A lot of users will be visiting the site to check on opening times. This is therefore a great opportunity to provide extra information by including information about events and drinks. This is again beneficial to the user and the owner.
+- The power of responsivity is seen in the Hours section as the three sections, displayed one at a time on a mobile, expand and are positioned next to each other. On a larger screen, the larger section sits between the other two, providng a nice visuality. On large mobile devices, the larger section moves up and spreads across the top of the other two, which is again visually pleasing.
+- The 'Facilities' section uses the power of images to catch the user's attention. The user is then provided with very useful information but it is supplied very concisely. Again, the section is responsive, with the two cards dislayed equally alongside each other on medium to large screens.
+- The 'Testimonials' section provides the user with a sense of realism. Real users of the site are providing them with feedback. It is displayed in a visually pleasing manner, again with concise but important content. As the screen size increases, two columns of user reviews pull away to the side, allowing the header text to drop down between. The impression of a 'speech bubble' reinforces the feeling that these are real people speaking. This is finished off with an invitation to explore more reviews with a recognisable Trip Advisor clickable logo, accompanying a high review score. There is also another invitation to contact the site for any further information.
+- The footer provides an invitation to the user to explore further once they have absorbed the information presented to them. Contact details, social media links plus the site policies (the links on the policies are set to the head of the Home page for the purposes of this project). The footer is responsive, with the social media icons appearing first on mobile devices but moving to the right hand side for larger devices, as is customary.
+- As the user scrolls down the page, in the absence of a fixed navigation bar, a floating return to top arrow appears. This makes for a better experience than having to scroll back to the top of the page, which could encourage the user to leave the site.
+- The 'Contact' page has all the essential information placed at the top, with clickable links. An embedded map is also provided to assist users in planning a visit. I originally set the width to 100%, which worked well for responsiveness but the validator stated that this was not good practice so I had to change it to a fixed value, which doesn't sit as well.
+- The contact form is well spaced and fairly simple so as not to overwhelm the user with options. There is even some humour injected into it. The name, email and mailing list radio buttons are all required and the form will not be submitted otherwise. The default radio button is set to 'Yes', which encourages more subscribers. There is a reset button to clear entries and a confirmation page once the form is sent (see below though).
 
 ### Future Features
+- This site is well set up to be further developed. My original plan, as per the wireframes, was to create another two pages. The first being a drinks list with prices. The second being an events page, displaying upcoming events, with some embedded audio to give users a sample of the music.
+- A stylised 404 page would be another addition to the site. Again, this provides reassurance to the user if there is a loading issue or broken link. Seeing a page from the site with a link back is much better than a generic page.
 - I was looking at changing the form submit button text from 'Send' to 'Sent' to inform the user that their input had been successfully processed. However, it appears that this would require JavaScript so is beyond my current skill level. It was also pointed out to me by a fellow Slack member that the form would refresh once submitted so this would not be the most useful feedback tool to the user. The button currently opens the Code Institute successful submission page. In future, a successful submission page or pop-up personalised to the site would be preferred.
+- Although some snippets of JavaScript have been used, there would be more options to develop the site with JavaScript understanding. 
 
 ## Technologies Used
 ---
@@ -246,7 +262,7 @@ The layout and content of the site has been designed with the User Experience at
 1. [Bootstrap 4.6:](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+    - Hover.css was used on the Social Media icons to add the float transition while being hovered over.
 1. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Metal Mania' and 'Montserrat' fonts into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
@@ -254,7 +270,7 @@ The layout and content of the site has been designed with the User Experience at
 1. [jQuery:](https://jquery.com/)
     - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
 1. [Git](https://git-scm.com/)
-    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+    - Git was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
 1. [Balsamiq:](https://balsamiq.com/)
@@ -347,7 +363,7 @@ See [GitHub Docs](https://docs.github.com/en/github/creating-cloning-and-archivi
 
 -   [Code Institute](https://stackoverflow.com) tutorials provided helpful guidance in creating the code for this project, including the hero image.
 
--   [Bootstrap 4.6:](https://getbootstrap.com/docs/4.6/getting-started/introduction/): Bootstrap Library was used throughout the project, mainly to make the site responsive using the Bootstrap Grid System.
+-   [Bootstrap 4.6](https://getbootstrap.com/docs/4.6/getting-started/introduction/): Bootstrap Library was used throughout the project, mainly to make the site responsive using the Bootstrap Grid System.
 
 -   Code for the floating scroll to top button was provided by [W3Schools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top) and slightly modified by the developer to suit the site. Although some JavaScript was required, it was felt that this added much to the user experience.
 
@@ -371,7 +387,8 @@ Images were either created by the developer or sourced from third parties. Pleas
     - [Testimonials image 3](https://github.com/SteveKennyUK/the-anvil-metal-pub/blob/master/assets/images/testimonials-image-3.png) courtesy of [Interscope Records](https://www.interscope.com/) via [Wisconsin Public Radio](https://www.wpr.org/pick-day-marilyn-manson-song-really-frightening).
     - [Testimonials image 4](https://github.com/SteveKennyUK/the-anvil-metal-pub/blob/master/assets/images/testimonials-image-4.png) courtesy of [Wallpaper Cave](https://wallpapercave.com/jinjer-wallpapers).
     - [Trip Advisor review image](https://github.com/SteveKennyUK/the-anvil-metal-pub/blob/master/assets/images/trip-advisor.png) taken from The Anvil Basingstoke [Tripadvisor review](https://www.tripadvisor.co.uk/Attraction_Review-g187054-d1204159-Reviews-The_Anvil-Basingstoke_Hampshire_England.html).
-  
+- Contact Page
+    - Map from [Google Maps](https://www.google.com/maps/place/Trinity+United+Reformed+Church/@51.5401241,-0.1427144,18.41z/data=!4m5!3m4!1s0x48761ae192798ed5:0xbacb7dff3942b465!8m2!3d51.540241!4d-0.1423847).  
   
 
     

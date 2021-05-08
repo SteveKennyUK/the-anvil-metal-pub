@@ -48,6 +48,7 @@ The [contact page](https://github.com/SteveKennyUK/the-anvil-metal-pub/blob/mast
 
 ---
 ## Browser Compatibility
+[Autoprefixer](https://autoprefixer.github.io/) was used to add vendor browser prefixes. Manual testing was also carried out.
 
 The site was tested on a ASUS Zenbook desktop, Samsung Galaxy mobile and iPhone 11 using various browsers.
 - **Chrome** The site was developed using Chrome so works well. See [desktop screenshot](https://github.com/SteveKennyUK/the-anvil-metal-pub/blob/master/assets/images/testing/chrome-desktop.JPG). Mobile view was good in portrait and landscape.
@@ -61,7 +62,7 @@ The site was tested on a ASUS Zenbook desktop, Samsung Galaxy mobile and iPhone 
 The initial scope of the project turned out to be a little ambitious so had to be scaled down. The most important aspects of the user experience which were identified have been met. Furthermore, the foundations have been laid to smoothly develop the site and meet the future user demands. 
 
 -   #### Business Goals
-    -  As the business owner, I want features and content that will engage new users quickly, encourage them to explore the site and draw them back in the future.
+-  As the business owner, I want features and content that will engage new users quickly, encourage them to explore the site and draw them back in the future.
         - The home page has a lively and inviting feel to it. The hero image and text immediately pull the user in. The call to action invites them to explore further, using the well defined navigational elements.  
 
 - As the business owner, I want to advertise the great aspects of our business which make us special.
@@ -129,8 +130,8 @@ Alert bar | Text Link | Navigate to contact.html| Pass
 Alert bar | Dismiss Button | Collapse Alert Bar | Pass
 Navbar | Logo | Navigate to index.html| Pass
 Navbar | COVID-19 Button Link | Open COVID-19 modal | Pass
-Navbar | Close Button | Close COVID-19 modal | Pass
-COVID-19 Modal | Contact Button link | Navigate to index.html | Pass
+COVID-19 Modal | Close Button | Close COVID-19 modal | Pass
+COVID-19 Modal | Contact Button link | Navigate to contact.html | Pass
 Navbar | Home Link | Navigate to index.html | Pass
 Navbar | Hours Link | Navigate to index.html#hours | Pass
 Navbar | Facilities Link | Navigate to index.html#facilities | Pass
@@ -164,8 +165,8 @@ Floating | Scroll To Top Button | Navigate to top of page | Pass
 Alert bar | Dismiss Button | Collapse Alert Bar | Pass
 Navbar | Logo | Navigate to index.html| Pass
 Navbar | COVID-19 Button Link | Open COVID-19 modal | Pass
-Navbar | Close Button | Close COVID-19 modal | Pass
-COVID-19 Modal | Contact Button link | Navigate to index.html | Pass
+COVID-19 Modal | Close Button | Close COVID-19 modal | Pass
+COVID-19 Modal | Contact Button link | Navigate to contact.html | Pass
 Navbar | Home Link | Navigate to index.html | Pass
 Navbar | Hours Link | Navigate to index.html#hours | Pass
 Navbar | Facilities Link | Navigate to index.html#facilities | Pass
