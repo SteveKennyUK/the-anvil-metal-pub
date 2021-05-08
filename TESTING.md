@@ -33,9 +33,16 @@ The [contact page](https://github.com/SteveKennyUK/the-anvil-metal-pub/blob/mast
 -   [Responsinator](https://www.responsinator.com/) was used to test the completed project on different devices. This highlighted some issues which were not apparent on Google Dev Tools, mostly involving landscape viewports. These were addressed and all devices are rendering well - please see [link](https://www.responsinator.com/?url=https%3A%2F%2Fstevekennyuk.github.io%2Fthe-anvil-metal-pub%2Findex.html) for results.
 - In addition to automated tests, using real devices is desirable. Thanks to friends and family, I was able to test the site on various devices, including Samsung Galaxy S8, Samsung Galaxy S9, various iPhones, iPads, Samsung Galaxy Tabs, Asus Zenbook and Lenovo ThinkPad. Results were very positive. The only issue was with a narrow and long screen on a Galaxy Tab, where some elements were almost overlapping. Having already spent a long time using media queries to try to resolve landscape issues on smaller devices, I feel that this would be best looked at in the future. There could be a lot of rewriting to try to accommodate an extremely small number of devices. Although ideally all devices should be accommodated, this may not always be an efficient use of resources.
 
+---
+## Browser Compatibility
 
+The site was tested on a ASUS Zenbook desktop, Samsung Galaxy mobile and iPhone 11 using various browsers.
+- **Chrome** The site was developed using Chrome so works well. See [desktop screenshot](https://github.com/SteveKennyUK/the-anvil-metal-pub/blob/master/assets/images/testing/chrome-desktop.JPG). Mobile view was good in portrait and landscape.
+- **Mozilla Firefox** [Desktop](https://github.com/SteveKennyUK/the-anvil-metal-pub/blob/master/assets/images/testing/mozilla-desktop.JPG) and mobile views were good.
+- **Edge** [Desktop](https://github.com/SteveKennyUK/the-anvil-metal-pub/blob/master/assets/images/testing/edge-desktop.JPG) and mobile views were good.
+- **Opera** [Desktop](https://github.com/SteveKennyUK/the-anvil-metal-pub/blob/master/assets/images/testing/opera-desktop.JPG) and mobile views were good.
 
-
+---
 ### Testing User Stories from User Experience (UX) Section
 
 -   #### First Time Visitor Goals

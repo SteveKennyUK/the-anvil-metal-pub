@@ -8,7 +8,7 @@ This project is concerned with building a website for a fictitious pub called "T
 
 ## [View the live project here.](https://stevekennyuk.github.io/the-anvil-metal-pub/)
 
-![Mock-up](https://github.com/SteveKennyUK/the-anvil-metal-pub/blob/master/assets/images/mock-up.JPG)
+![Mock-up](https://github.com/SteveKennyUK/the-anvil-metal-pub/blob/master/assets/images/testing/mock-up.JPG)
 
 # Table of contents 
 
