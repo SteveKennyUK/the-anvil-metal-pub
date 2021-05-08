@@ -15,8 +15,8 @@ This project is concerned with building a website for a fictitious pub called "T
 - [UX](#ux)    
   - [Project Strategy](#project-strategy) 
     - [Business Goals](#business-goals)
-    - [User Goals (general)](#user-goals-(general))  
-    - [User Stories (customer users)](#user-stories-(customer-users)) 
+    - [User Goals (general)](#user-goals-general)  
+    - [User Stories (customer users)](#user-stories-customer-users) 
   - [Project Scope](#project-scope)
     - [Strategy Trade-off](#strategy-trade-offs)  
     - [Content Scope](#content-scope)  
@@ -274,8 +274,8 @@ The layout and content of the site has been designed with the User Experience at
 1. [W3Schools](https://www.w3schools.com/)   
     - W3Schools was used for coding guidance and clarification.      
 ## Testing
-
-
+---
+Testing details can be found [here](TESTING.md).
 
 ## Deployment
 ---
